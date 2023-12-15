@@ -1,9 +1,11 @@
 # BIBLIOTECA VIRTUAL 
 ![Portada](https://ethic.es/wp-content/uploads/2023/10/biblioteca.png)
+
 ## Descripción
 Este repositorio aloja una biblioteca virtual con una selección de libros destacados.
 
-### Categorías
+
+## Categorías
 * Romance
 * Fantasía
 * Ficción
@@ -33,10 +35,30 @@ Este repositorio aloja una biblioteca virtual con una selección de libros desta
 | El principe cruel | Holly Black       | Fantasía       |
 | Dune                         | Frank Herbert           | Ficción  |
 
-## Imágenes
-![Portada Local](./covers/cien_anos_de_soledad.jpg)
-![Portada Externa](https://example.com/covers/sapiens.jpg)
+## Citas
+<img src='/home/chugani/ets/imagenes/libro.png'>
 
-## Enlaces Web
-- [Biblioteca Online](https://example.com/library)
-- [Foro de Discusión](https://example.com/forum)
+> "Un lector vive mil vidas antes de morir. Aquel que nunca lee vive solo una." - George R.R. Martin
+
+> "Una habitación sin libros es como un cuerpo sin alma" - Marco Tulio Cicerón
+
+### Enlaces Web
+- [Información sobre novedades lectoras](https://infoliteraria.com/)
+- [Descarga de libros](https://allbooksworld.com/)
+
+## Código Python
+```python
+for book in best_sellers:
+    print(book.text)
+```
+
+## Código XML
+```xml
+<biblioteca>
+    <categoria nombre="Romance">
+        <libro>Better than the movies</libro>
+        <libro>Wildfire</libro>
+        <libro>Heartless</libro>
+    </categoria>
+</biblioteca>
+```
