@@ -8,7 +8,7 @@ Los requisitos que describen las funciones específicas que el software debe rea
 ### Requisitos No Funcionales
 Los requisitos que definen atributos del sistema, como la usabilidad, el rendimiento y la seguridad.
 
-![Análisis de Requisitos](https://img.freepik.com/vector-gratis/concepto-trabajo-equipo-negocios_98292-5446.jpg?w=996&t=st=1702769456~exp=1702770056~hmac=534e0d5ae719742cbcbd2b6809fb8ea37f232eac5d3053f88a878f5e5db87f79)
+![Análisis de Requisitos](https://www.sistedes.es/files/requisitos.jpeg)
 
 ## Diseño
 En esta fase, se establece la arquitectura del software y se crean representaciones visuales de cómo será el sistema.
