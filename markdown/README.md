@@ -40,7 +40,9 @@ Este repositorio aloja una biblioteca virtual con una selección de libros desta
 
 > "Un lector vive mil vidas antes de morir. Aquel que nunca lee vive solo una." - George R.R. Martin
 
-> "Una habitación sin libros es como un cuerpo sin alma" - Marco Tulio Cicerón
+> "Una habitación sin libros es como un cuerpo sin alma" - Marco Tulio 
+
+> "We are like books. Most people only see our cover. The minority read only the introduction. Many people belive the critics. Few will know our content" - Émile Zola
 
 ### Enlaces Web
 - [Información sobre novedades lectoras](https://infoliteraria.com/)
