@@ -1,23 +1,30 @@
-|  Actor | XXX (Nombre del Actor) |
+# Diagrama de comportamiento
+
+En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
+
+![Diagrama de comportamiento](image.png)
+
+## Actores
+| Actor | Administrador |
 |---|---|
-| Descripción  | _Breve descripción del actor_  |
-| Características  | _Características que describen al actor_ |
-| Relaciones | _Relaciones que tiene con otros actores. Básicamente cuando realiza las mismas acciones que otro actor._  |
-| Referencias | _Que casos de uso realiza_ |   
-|  Notas |  _Notas adicionales_ |
-| Autor  | _Quien desarrolla la especificación del actor_ |
-|Fecha | _Fecha de la especificación_ |
+| Descripción | El administrador es la persona encargada de gestionar y controlar el sistema relacionado con los medios de transporte. Tiene privilegios para definir y modificar los parámetros y configuraciones del sistema. |
+| Características | Capacidad para gestionar usuarios, acceso a funciones administrativas, conocimiento técnico del sistema de transporte. |
+| Relaciones | Se relaciona con otros actores como Usuarios (puede gestionar cuentas), Proveedores de servicios de transporte (puede agregar o modificar opciones de transporte), y Sistema (interactúa para realizar configuraciones). |
+| Referencias | Realiza acciones relacionadas con la administración del sistema, como "Gestionar usuarios", "Configurar opciones de transporte", y "Modificar parámetros del sistema". |
+| Notas | El administrador puede ser una persona designada con conocimientos técnicos o un rol dentro de la organización encargada de la gestión del sistema de transporte. |
+| Autor | [Tu nombre o el responsable de la especificación] |
+| Fecha | [Fecha de la especificación] |
 
-
-|  Caso de Uso	CU | XXX  |
-  |---|---|
-  | Fuentes  | _Documento que sustenta el caso de uso_  |
-  | Actor  |  _Actores que participan en el caso de uso_ |
-  | Descripción | _Descripción del caso de uso_  |
-  | Flujo básico | _Descripción paso a paso de la ejecución. (1->2->3.)_ |
-  | Pre-condiciones | _Que debe ocurrir con anterioridad_  |  
-  | Post-condiciones  | _Que debe ocurrir con posterioridad_  |  
-  |  Requerimientos | _Que debe de exister para que el caso de uso se ejecute. Ej: Tarjeta de crédito_  |
-  |  Notas |  _Notas adicionales_ |
-  | Autor  | _Quien desarrolla la especificación del actor_ |
-  |Fecha | _Fecha de la especificación_ |
+## Casos de uso
+| Caso de Uso CU | Definir Medio de Transporte |
+|---|---|
+| Fuentes | Documento de requisitos del sistema. |
+| Actor | Administrador |
+| Descripción | Permite al administrador definir un nuevo medio de transporte en el sistema, especificando sus características y parámetros. |
+| Flujo básico | 1. El administrador inicia sesión en el sistema. 2. Navega a la sección de "Definir Medio de Transporte". 3. Ingresa la información del nuevo medio de transporte (nombre, tipo, capacidad, etc.). 4. Confirma la adición del nuevo medio de transporte. |
+| Pre-condiciones | El administrador ha iniciado sesión en el sistema. |
+| Post-condiciones | El nuevo medio de transporte se registra en el sistema y está disponible para su uso. |
+| Requerimientos | Acceso a la función de administración de medios de transporte. |
+| Notas | Este caso de uso es fundamental para mantener actualizado el catálogo de medios de transporte disponibles en el sistema. |
+| Autor | Rashi Chugani Narwanni |
+| Fecha | 16/01/2024 |
