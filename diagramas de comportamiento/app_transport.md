@@ -2,7 +2,7 @@
 
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](image.png)
+![Diagrama de comportamiento](imagen_app_transport.png)
 
 ## Actores
 | Actor | Administrador |
@@ -12,8 +12,8 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Relaciones | Se relaciona con otros actores como Usuarios (puede gestionar cuentas), Proveedores de servicios de transporte (puede agregar o modificar opciones de transporte), y Sistema (interactúa para realizar configuraciones). |
 | Referencias | Realiza acciones relacionadas con la administración del sistema, como "Gestionar usuarios", "Configurar opciones de transporte", y "Modificar parámetros del sistema". |
 | Notas | El administrador puede ser una persona designada con conocimientos técnicos o un rol dentro de la organización encargada de la gestión del sistema de transporte. |
-| Autor | [Tu nombre o el responsable de la especificación] |
-| Fecha | [Fecha de la especificación] |
+| Autor | Rashi Chugani Narwanni |
+| Fecha | 16/01/2024 |
 
 ## Casos de uso
 | Caso de Uso CU | Definir Medio de Transporte |
