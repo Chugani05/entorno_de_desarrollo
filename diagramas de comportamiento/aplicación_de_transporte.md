@@ -1,4 +1,4 @@
-# Diagrama de comportamiento
+# Aplicación de transporte
 
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
