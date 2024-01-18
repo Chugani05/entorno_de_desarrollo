@@ -1,4 +1,7 @@
 # Sistema de biblioteca
+En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
+
+![Diagrama de comportamiento](Sistema-biblioteca.png))
 
 ## Actores
 |  Actor | Usuario |
@@ -35,33 +38,7 @@
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 18/01/2024 |
 
-|  Caso de Uso	CU | Prestar Libro  |
-|---|---|
-| Fuentes  | Catálogo de la biblioteca, Sistema de préstamos  |
-| Actor  | Usuario  |
-| Descripción | Permite al usuario solicitar el préstamo de un libro.  |
-| Flujo básico | 1. El usuario busca el libro deseado. 2. Selecciona el libro y solicita el préstamo. 3. El sistema verifica la disponibilidad del libro. 4. Si está disponible, se registra el préstamo. |
-| Pre-condiciones | El usuario ha iniciado sesión y ha encontrado un libro disponible. |
-| Post-condiciones  | El libro es prestado al usuario y se actualiza su historial de préstamos.  |
-| Requerimientos | El usuario no debe tener préstamos pendientes.  |
-| Notas | - Se establece un período de préstamo y se generan recordatorios de vencimiento. |
-| Autor | Rashi Chugani Narwanni |
-| Fecha | 18/01/2024 |
-
-|  Caso de Uso	CU | Gestionar Inventario  |
-|---|---|
-| Fuentes  | Catálogo de la biblioteca, Sistema de inventario  |
-| Actor  | Bibliotecario  |
-| Descripción | Permite al bibliotecario agregar, eliminar o actualizar libros en el inventario.  |
-| Flujo básico | 1. El bibliotecario inicia sesión en el sistema. 2. Accede a la sección de gestión de inventario. 3. Agrega, actualiza o elimina información de libros. |
-| Pre-condiciones | El bibliotecario ha iniciado sesión y tiene los permisos adecuados. |
-| Post-condiciones  | El inventario se actualiza según las modificaciones realizadas por el bibliotecario.  |
-| Requerimientos | Conexión a la base de datos del sistema de biblioteca.  |
-| Notas | - Se pueden registrar detalles como la ubicación física de los libros en la biblioteca. |
-| Autor | Rashi Chugani Narwanni |
-| Fecha | 18/01/2024 |
-
-|  Caso de Uso	CU | Gestionar Préstamos  |
+|  Caso de Uso	CU | Prestar libros  |
 |---|---|
 | Fuentes  | Sistema de préstamos  |
 | Actor  | Bibliotecario  |
@@ -71,5 +48,31 @@
 | Post-condiciones  | El sistema registra la devolución de libros y actualiza el estado de los préstamos.  |
 | Requerimientos | Conexión a la base de datos del sistema de biblioteca.  |
 | Notas | - Se pueden generar multas por devoluciones tardías. |
+| Autor | Rashi Chugani Narwanni |
+| Fecha | 18/01/2024 |
+
+|  Caso de Uso	CU | Devolver Libro  |
+|---|---|
+| Fuentes  | Sistema de préstamos, Inventario de la biblioteca  |
+| Actor  | Usuario  |
+| Descripción | Permite al usuario devolver un libro prestado a la biblioteca.  |
+| Flujo básico | 1. El usuario inicia sesión en el sistema. 2. Accede a la sección de "Mis Préstamos" o una función similar. 3. Selecciona el libro que desea devolver. 4. Confirma la devolución. 5. El sistema verifica la devolución y actualiza el estado del libro. |
+| Pre-condiciones | El usuario ha iniciado sesión y tiene libros prestados. |
+| Post-condiciones  | El libro se registra como devuelto, y el estado del préstamo se actualiza en el sistema.  |
+| Requerimientos | El libro debe estar en buen estado para la devolución.  |
+| Notas | - Se pueden generar recordatorios automáticos para la devolución próxima. - Puede haber un período de gracia para devoluciones tardías antes de aplicar multas. |
+| Autor | Rashi Chugani Narwanni |
+| Fecha | 18/01/2024 |
+
+|  Caso de Uso	CU | Actualizar Catálogo  |
+|---|---|
+| Fuentes  | Catálogo de la biblioteca, Sistema de inventario  |
+| Actor  | Bibliotecario  |
+| Descripción | Permite al bibliotecario agregar, eliminar o actualizar información en el catálogo de la biblioteca.  |
+| Flujo básico | 1. El bibliotecario inicia sesión en el sistema. 2. Accede a la sección de gestión de catálogo. 3. Selecciona la opción de actualizar catálogo. 4. Agrega nuevos libros, actualiza detalles o elimina registros según sea necesario. |
+| Pre-condiciones | El bibliotecario ha iniciado sesión y tiene los permisos adecuados. |
+| Post-condiciones  | El catálogo se actualiza según las modificaciones realizadas por el bibliotecario.  |
+| Requerimientos | Conexión a la base de datos del sistema de biblioteca.  |
+| Notas | - Se puede incluir la capacidad de cargar información en formato de archivo para realizar actualizaciones masivas. - El sistema puede generar registros de cambios para mantener un historial del catálogo. |
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 18/01/2024 |
