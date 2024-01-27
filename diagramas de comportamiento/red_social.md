@@ -154,10 +154,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al usuario publicar un mensaje en su perfil o en el de sus amigos. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El usuario inicia sesión en la aplicación. |
-|                 | 2   | Accede a la sección de publicación. |
-|                 | 3   | Redacta el mensaje. |
-|                 | 4   | Publica el mensaje en su perfil. |
+| | 1   | El usuario inicia sesión en la aplicación. |
+| | 2   | Accede a la sección de publicación. |
+| | 3   | Redacta el mensaje. |
+| | 4   | Publica el mensaje en su perfil. |
 |---|---|
 | Postcondición | El mensaje se publica en el perfil seleccionado. |
 |---|---|
@@ -178,15 +178,15 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al usuario conectar con otros usuarios, estableciendo una relación de amistad. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El usuario busca a un amigo. |
-|                 | 2   | Envía una solicitud de amistad. |
-|                 | 3   | El otro usuario acepta la solicitud. |
+| | 1   | El usuario busca a un amigo. |
+| | 2   | Envía una solicitud de amistad. |
+| | 3   | El otro usuario acepta la solicitud. |
 |---|---|
 | Postcondición | Se establece una conexión de amistad entre los usuarios. |
 |---|---|
 | Excepciones | Paso | Comentarios |
-|             | 3   | El otro usuario no acepta la solicitud de amistad. |
-|             |     | E.3  | Se cancela el caso de uso. |
+| | 3   | El otro usuario no acepta la solicitud de amistad. |
+| |     | E.3  | Se cancela el caso de uso. |
 |---|---|
 | Comentarios |                       |
 
@@ -201,10 +201,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al usuario enviar una solicitud de amistad a otro usuario en la plataforma. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El usuario inicia sesión en la aplicación. |
-|                 | 2   | Busca al usuario deseado. |
-|                 | 3   | Selecciona la opción de enviar solicitud de amistad. |
-|                 | 4   | El sistema envía una notificación al usuario destinatario. |
+| | 1   | El usuario inicia sesión en la aplicación. |
+| | 2   | Busca al usuario deseado. |
+| | 3   | Selecciona la opción de enviar solicitud de amistad. |
+| | 4   | El sistema envía una notificación al usuario destinatario. |
 |---|---|
 | Postcondición | Se envía una solicitud de amistad al usuario destinatario. |
 |---|---|
@@ -223,10 +223,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al administrador eliminar publicaciones de usuarios que infringen las normas de la plataforma. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El administrador inicia sesión en la plataforma. |
-|                 | 2   | Accede a la sección de moderación. |
-|                 | 3   | Busca y selecciona la publicación a eliminar. |
-|                 | 4   | Confirma la eliminación. |
+| | 1   | El administrador inicia sesión en la plataforma. |
+| | 2   | Accede a la sección de moderación. |
+| | 3   | Busca y selecciona la publicación a eliminar. |
+| | 4   | Confirma la eliminación. |
 |---|---|
 | Postcondición | La publicación seleccionada es eliminada del sistema. |
 |---|---|
@@ -245,9 +245,9 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al usuario ver la actividad reciente en su red, incluyendo publicaciones de amigos y eventos. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El usuario inicia sesión en la aplicación. |
-|                 | 2   | Accede a la sección de actividad. |
-|                 | 3   | Visualiza las publicaciones de amigos y eventos recientes. |
+| | 1   | El usuario inicia sesión en la aplicación. |
+| | 2   | Accede a la sección de actividad. |
+| | 3   | Visualiza las publicaciones de amigos y eventos recientes. |
 |---|---|
 | Postcondición | El usuario visualiza la actividad más reciente en su red. |
 |---|---|
@@ -266,10 +266,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al administrador gestionar usuarios, incluyendo la capacidad de ver, editar y eliminar cuentas. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El administrador inicia sesión en la plataforma. |
-|                 | 2   | Accede a la sección de gestión de usuarios. |
-|                 | 3   | Busca y selecciona un usuario. |
-|                 | 4   | Visualiza, edita o elimina la cuenta según sea necesario. |
+| | 1   | El administrador inicia sesión en la plataforma. |
+| | 2   | Accede a la sección de gestión de usuarios. |
+| | 3   | Busca y selecciona un usuario. |
+| | 4   | Visualiza, edita o elimina la cuenta según sea necesario. |
 |---|---|
 | Postcondición | Se realiza la acción seleccionada sobre la cuenta de usuario. |
 |---|---|
@@ -288,10 +288,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al usuario editar la información de su perfil, incluyendo detalles como nombre, foto de perfil, biografía, intereses, etc. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El usuario inicia sesión en la aplicación. |
-|                 | 2   | Accede a la sección de edición de perfil. |
-|                 | 3   | Realiza las modificaciones deseadas en la información del perfil. |
-|                 | 4   | Guarda los cambios. |
+| | 1   | El usuario inicia sesión en la aplicación. |
+| | 2   | Accede a la sección de edición de perfil. |
+| | 3   | Realiza las modificaciones deseadas en la información del perfil. |
+| | 4   | Guarda los cambios. |
 |---|---|
 | Postcondición | La información del perfil del usuario se actualiza con los cambios realizados. |
 |---|---|
@@ -310,10 +310,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al administrador revisar y moderar contenido para asegurar el cumplimiento de las normas de la plataforma. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El administrador inicia sesión en la plataforma. |
-|                 | 2   | Accede a la sección de moderación. |
-|                 | 3   | Revisa y evalúa el contenido. |
-|                 | 4   | Aplica acciones moderadoras según las políticas de la plataforma. |
+| | 1   | El administrador inicia sesión en la plataforma. |
+| | 2   | Accede a la sección de moderación. |
+| | 3   | Revisa y evalúa el contenido. |
+| | 4   | Aplica acciones moderadoras según las políticas de la plataforma. |
 |---|---|
 | Postcondición | Se aplica la moderación al contenido seleccionado. |
 |---|---|
@@ -332,10 +332,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Descripción | Permite al usuario bloquear a otro usuario en la plataforma, impidiendo así la interacción entre ambos. |
 |---|---|
 | Secuencia normal | Paso | Acción |
-|                 | 1   | El usuario inicia sesión en la aplicación. |
-|                 | 2   | Busca al usuario que desea bloquear. |
-|                 | 3   | Selecciona la opción de bloquear usuario. |
-|                 | 4   | Confirma la acción. |
+| | 1   | El usuario inicia sesión en la aplicación. |
+| | 2   | Busca al usuario que desea bloquear. |
+| | 3   | Selecciona la opción de bloquear usuario. |
+| | 4   | Confirma la acción. |
 |---|---|
 | Postcondición | El usuario seleccionado queda bloqueado y la interacción entre ambos se ve restringida. |
 |---|---|
