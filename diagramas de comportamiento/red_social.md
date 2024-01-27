@@ -144,7 +144,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 
 ## Redacciónes de Casos de Uso
 | CU-001  | Publicar Mensaje  |
-|---|---|
+|---|---|---|
 | Versión | 1.0 (27/01/2024)  |
 | Dependencias | -              |
 | Precondición | El usuario ha iniciado sesión en la aplicación. |
