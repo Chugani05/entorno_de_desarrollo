@@ -143,21 +143,21 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fecha | 20/01/2024  |
 
 ## Redacciónes de Casos de Uso
-| CU-001  | Publicar Mensaje  | |
+| **CU-001**  | **Publicar Mensaje**  | |
 |---|---|---|
-| Versión | 1.0 (27/01/2024)  | |
-| Dependencias | -              |
-| Precondición | El usuario ha iniciado sesión en la aplicación. | |
-| Descripción | Permite al usuario publicar un mensaje en su perfil o en el de sus amigos. | |
-| Secuencia normal | Paso | Acción |
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El usuario ha iniciado sesión en la aplicación. | |
+| **Descripción** | Permite al usuario publicar un mensaje en su perfil o en el de sus amigos. | |
+| **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El usuario inicia sesión en la aplicación. |
 | | 2   | Accede a la sección de publicación. |
 | | 3   | Redacta el mensaje. |
 | | 4   | Publica el mensaje en su perfil. |
-| Postcondición | El mensaje se publica en el perfil seleccionado. |
-| Excepciones | Paso | Comentarios |
+| **Postcondición** | El mensaje se publica en el perfil seleccionado. |
+| **Excepciones** | **Paso** | **Acción** |
 |             | N/A | No hay excepciones especificadas para este caso de uso. |
-| Comentarios |                       | |
+| **Comentarios** |                       | |
 
 
 | CU-002  | Conectar con Amigos  |
