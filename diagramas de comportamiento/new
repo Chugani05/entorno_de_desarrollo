@@ -1,33 +1,34 @@
-| **CU-016 Registrar préstamo**                                     |
-|--------------------------------------------------------------------|
-| **Versión**                | 1.0 (02/07/2009)  |
-|----------------------------|---------------------------------------|
-| **Dependencias**           | - RG-001 Gestionar los préstamos de los libros.  |
-|                            | - RG-005 Conocer las preferencias de los usuarios de la biblioteca.  |
-|                            | - RN-008 Número máximo de préstamos simultáneos.  |
-|                            | - RN-010 Fecha de devolución de un préstamo.  |
-|----------------------------|---------------------------------------|
-| **Precondición**           | El usuario de la biblioteca se ha identificado mediante su camé de biblioteca y ha cogido los libros objeto del préstamo de las estanterias.  |
-|----------------------------|---------------------------------------|
-| **Descripción**            | El sistema deberá comportarse como se describe en el siguiente caso de uso cuando el usuario de la biblioteca solicite al bibliotecario sacar uno o más libros en préstamo.  |
-|----------------------------|-----------|---------------------------|
-| **Secuencia normal**       | **Paso**  | **Acción**                                                         |
-|                            | 1         | El bibliotecario solicita al sistema comenzar el proceso de registrar el préstamo de un libro. |
-|                            | 2         | El sistema solicita que se identifique al usuario de la biblioteca que desea retirar el libro. |
-|                            | 3         | El bibliotecario proporciona al sistema los datos identificativos del usuario de la biblioteca. |
-|                            | 4         | El sistema solicita que se identifiquen los libros objeto del préstamo. |
-|                            | 5         | El bibliotecario proporciona al sistema los datos de identificación de los libros objeto del préstamo. |
-|                            | 6         | El sistema muestra la fecha de devolución de cada uno de los libros objeto del préstamo y pide que se confirme el préstamo de cada uno de ellos. |
-|                            | 7         | El bibliotecario le indica al usuario de la biblioteca la fecha de devolución de cada libro y le pregunta si desea seguir adelante con el préstamo de los libros. |
-|                            | 8         | El usuario de la biblioteca confirma los libros que desea llevarse conociendo las fechas de devolución. |
-|                            | 9         | Si alguno de los libros que se lleva tiene asociado un elemento multimedia, se realiza el caso de uso Añadir elemento multimedia al préstamo. |
-|                            | 10        | El bibliotecario confirma al sistema el préstamo de los libros que el usuario de la biblioteca ha decidido tomar prestado. |
-|                            | 11        | El sistema informa de que el préstamo de los libros se ha registrado correctamente. |
-|----------------------------|-----------|---------------------------|
-| **Postcondición**          | El usuario de la biblioteca se lleva los libros prestados y el sistema ha registrado el préstamo de los libros. |
-|----------------------------|---------------------------------------|
-| **Excepciones**            | **Paso**  | **Comentarios**                                                    |
-|                            | 3         | Si el usuario de la biblioteca ha excedido el número máximo de préstamos simultáneos o tiene alguna penalización, |
-|                            |           | E.1  | El sistema informa de la situación que impide realizar el préstamo. |
-|                            |           | E.1  | El bibliotecario retiene los libros e informa al usuario de la biblioteca de la situación. |
-|                            |           | E.1  | Se cancela el caso de uso.                                         |
+| CU-016  | Registrar préstamo  |
+|---|---|
+| Versión  | 1.0 (27/01/2024)  |
+|---|---|
+| Dependencias  | - RG-001 Gestionar los préstamos de los libros.  |
+|               | - RG-005 Conocer las preferencias de los usuarios de la biblioteca.  |
+|               | - RN-008 Número máximo de préstamos simultáneos.  |
+|               | - RN-010 Fecha de devolución de un préstamo.  |
+|---|---|
+| Precondición  | El usuario de la biblioteca se ha identificado mediante su camé de biblioteca y ha cogido los libros objeto del préstamo de las estanterias.  |
+|---|---|
+| Descripción  | El sistema deberá comportarse como se describe en el siguiente caso de uso cuando el usuario de la biblioteca solicite al bibliotecario sacar uno o más libros en préstamo.  |
+|---|---|---|
+| Secuencia normal  | Paso  | Acción  |
+|                   | 1     | El bibliotecario solicita al sistema comenzar el proceso de registrar el préstamo de un libro. |
+|                   | 2     | El sistema solicita que se identifique al usuario de la biblioteca que desea retirar el libro. |
+|                   | 3     | El bibliotecario proporciona al sistema los datos identificativos del usuario de la biblioteca. |
+|                   | 4     | El sistema solicita que se identifiquen los libros objeto del préstamo. |
+|                   | 5     | El bibliotecario proporciona al sistema los datos de identificación de los libros objeto del préstamo. |
+|                   | 6     | El sistema muestra la fecha de devolución de cada uno de los libros objeto del préstamo y pide que se confirme el préstamo de cada uno de ellos. |
+|                   | 7     | El bibliotecario le indica al usuario de la biblioteca la fecha de devolución de cada libro y le pregunta si desea seguir adelante con el préstamo de los libros. |
+|                   | 8     | El usuario de la biblioteca confirma los libros que desea llevarse conociendo las fechas de devolución. |
+|                   | 9     | Si alguno de los libros que se lleva tiene asociado un elemento multimedia, se realiza el caso de uso Añadir elemento multimedia al préstamo. |
+|                   |       | 9.1  | Se realiza el caso de uso Añadir elemento multimedia al préstamo. |
+|                   | 10    | El bibliotecario confirma al sistema el préstamo de los libros que el usuario de la biblioteca ha decidido tomar prestado. |
+|                   | 11    | El sistema informa de que el préstamo de los libros se ha registrado correctamente. |
+|---|---|---|
+| Postcondición          | El usuario de la biblioteca se lleva los libros prestados y el sistema ha registrado el préstamo de los libros. |
+|---|---|---|
+| Excepciones  | Paso  | Comentarios  |
+|              | 3     | Si el usuario de la biblioteca ha excedido el número máximo de préstamos simultáneos o tiene alguna penalización, |
+|              |       | E.1  | El sistema informa de la situación que impide realizar el préstamo. |
+|              |       | E.2  | El bibliotecario retiene los libros e informa al usuario de la biblioteca de la situación. |
+|              |       | E.3  | Se cancela el caso de uso. |
