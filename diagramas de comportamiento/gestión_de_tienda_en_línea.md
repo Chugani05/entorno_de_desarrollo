@@ -102,3 +102,118 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Notas | - Puede incluir información sobre preferencias de productos o historial de compras. |
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 20/01/2024 |
+
+## Redacciónes de Casos de Uso
+| **CU-001**  | **Publicar Mensaje**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El usuario ha iniciado sesión en la aplicación. | |
+| **Descripción** | Permite al usuario publicar un mensaje en su perfil o en el de sus amigos. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El usuario inicia sesión en la aplicación. |
+| | 2   | Accede a la sección de publicación. |
+| | 3   | Redacta el mensaje. |
+| | 4   | Publica el mensaje en su perfil. |
+| **Postcondición** | El mensaje se publica en el perfil seleccionado. | |
+| **Excepciones** | **Paso** | **Acción** |
+| | 3   | El otro usuario no acepta la solicitud. | Ofrecer opciones para volver a enviar la solicitud o notificar al usuario sobre el estado de la solicitud. |
+| **Comentarios** |                       | |
+
+| **CU-002**  | **Ver Catálogo**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El cliente ha iniciado sesión en el sistema. | |
+| **Descripción** | Permite al cliente explorar el catálogo de productos de la tienda en línea. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El cliente inicia sesión en el sistema. |
+| | 2   | Accede a la sección de catálogo. |
+| | 3   | Explora productos utilizando filtros y categorías. |
+| | 4   | Visualiza detalles de productos individuales. |
+| **Postcondición** | El cliente puede ver y explorar productos en el catálogo.  | |
+| **Excepciones** | **Paso** | **Acción** |
+| | N/A | No hay excepciones especificadas para este caso de uso. |
+| **Comentarios** |                       | |
+
+| **CU-003**  | **Realizar Compra**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El cliente ha iniciado sesión y ha seleccionado productos para comprar. | |
+| **Descripción** | Permite al cliente seleccionar productos y realizar la compra. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El cliente selecciona productos para comprar. |
+| | 2   | Agrega productos al carrito. |
+| | 3   | Revisa y confirma la orden de compra. |
+| | 4   | Proporciona información de pago y dirección de envío. |
+| | 5   | Confirma y completa la compra. |
+| **Postcondición** | La compra se registra en el sistema, y los productos se reservan para el cliente.  | |
+| **Excepciones** | **Paso** | **Acción** |
+| | N/A | No hay excepciones especificadas para este caso de uso. |
+| **Comentarios** |                       | |
+
+| **CU-004**  | **Gestionar Inventario**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El administrador ha iniciado sesión y tiene los permisos adecuados. | |
+| **Descripción** | Permite al administrador gestionar el inventario de productos de la tienda en línea. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El administrador inicia sesión en el sistema. |
+| | 2   | Accede a la sección de gestión de inventario. |
+| | 3   | Agrega, actualiza o elimina información de productos. |
+| **Postcondición** | El inventario se actualiza según las modificaciones realizadas por el administrador.  | |
+| **Excepciones** | **Paso** | **Acción** |
+| | N/A | No hay excepciones especificadas para este caso de uso. |
+| **Comentarios** |                       | |
+
+| **CU-005**  | **Gestionar Pedidos**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El administrador ha iniciado sesión y tiene los permisos adecuados. | |
+| **Descripción** | Permite al administrador gestionar los pedidos realizados por los clientes. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El administrador inicia sesión en el sistema. |
+| | 2   | Accede a la sección de gestión de pedidos. |
+| | 3   | Visualiza los pedidos activos y su estado. |
+| | 4   | Actualiza el estado de los pedidos según sea necesario. |
+| **Postcondición** | El sistema registra las actualizaciones realizadas por el administrador en el estado de los pedidos.  | |
+| **Excepciones** | **Paso** | **Acción** |
+| | N/A | No hay excepciones especificadas para este caso de uso. |
+| **Comentarios** |                       | |
+
+| **CU-006**  | **Gestión de Cuenta**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El cliente ha iniciado sesión en el sistema. | |
+| **Descripción** | Permite al cliente gestionar su cuenta, modificar información personal y cambiar la contraseña. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El cliente inicia sesión en el sistema. |
+| | 2   | Accede a la sección de gestión de cuenta. |
+| | 3   | Visualiza y modifica la información personal (nombre, dirección, etc.). |
+| | 4   | Cambia la contraseña si es necesario. |
+| | 5   | Guarda los cambios realizados. |
+| **Postcondición**
+
+ | La información de la cuenta del cliente se actualiza según las modificaciones realizadas. | |
+| **Excepciones** | **Paso** | **Acción** |
+| | N/A | No hay excepciones especificadas para este caso de uso. |
+| **Comentarios** |                       | |
+
+| **CU-007**  | **Ver Información de Clientes**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | -              |
+| **Precondición** | El administrador ha iniciado sesión y tiene los permisos adecuados. | |
+| **Descripción** | Permite al administrador acceder a la información de los clientes registrados. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El administrador inicia sesión en el sistema. |
+| | 2   | Accede a la sección de información de clientes. |
+| | 3   | Visualiza detalles como historial de compras, información de contacto, etc. |
+| **Postcondición** | El administrador puede acceder y revisar la información de los clientes registrados en el sistema.  | |
+| **Excepciones** | **Paso** | **Acción** |
+| | N/A | No hay excepciones especificadas para este caso de uso. |
+| **Comentarios** |                       | |
