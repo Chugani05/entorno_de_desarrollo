@@ -78,10 +78,10 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fecha | 19/01/2024 |
 
 ## Redacciónes de Casos de Uso
-| **CU-003**  | **Buscar Vuelo**  | |
+| **CU-001**  | **Buscar Vuelo**  | |
 |---|---|---|
 | **Versión** | 1.0 (29/01/2024)      | |
-| **Dependencias** | Sistema de reservas de vuelos | |
+| **Dependencias** | N/A | |
 | **Precondición** | El pasajero ha iniciado sesión en el sistema. | |
 | **Descripción** | Permite al pasajero buscar vuelos disponibles según diferentes criterios. | |
 | **Secuencia normal** | **Paso** | **Acción** |
