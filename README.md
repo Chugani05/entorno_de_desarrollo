@@ -1,3 +1,3 @@
 # Entorno_de_desarrollo
-[Markdown](https://github.com/toninavhd/ProyectoBBDD/blob/main/modelo-er/images/diagramaER.drawio.png)
-[Diagramas de Comportamiento](https://github.com/toninavhd/ProyectoBBDD/blob/main/modelo-er/images/diagramaER.drawio.png)
+- [Markdown](https://github.com/Chugani05/entorno_de_desarrollo/tree/main/markdown)
+- [Diagramas de Comportamiento](https://github.com/Chugani05/entorno_de_desarrollo/tree/main/diagramas%20de%20comportamiento)
