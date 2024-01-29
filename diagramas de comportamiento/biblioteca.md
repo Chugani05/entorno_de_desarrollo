@@ -1,4 +1,4 @@
-# Sistema de biblioteca
+# Biblioteca
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
 ![Diagrama de comportamiento](Sistema-biblioteca.png)

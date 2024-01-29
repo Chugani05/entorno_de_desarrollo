@@ -1,4 +1,4 @@
-# Gestion de tienda en línea
+# Tienda en línea
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
 ![Diagrama de comportamiento](Tienda-en-line.png)
