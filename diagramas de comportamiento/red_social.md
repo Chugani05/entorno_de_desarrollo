@@ -146,7 +146,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **CU-001**  | **Publicar Mensaje**  | |
 |---|---|---|
 | **Versión** | 1.0 (27/01/2024)  | |
-| **Dependencias** | -              |
+| **Dependencias** | CU-005 Ver Actividad.  | |
 | **Precondición** | El usuario ha iniciado sesión en la aplicación. | |
 | **Descripción** | Permite al usuario publicar un mensaje en su perfil o en el de sus amigos. | |
 | **Secuencia normal** | **Paso** | **Acción** |
@@ -155,129 +155,134 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | | 3   | Redacta el mensaje. |
 | | 4   | Publica el mensaje en su perfil. |
 | **Postcondición** | El mensaje se publica en el perfil seleccionado. | |
-| **Excepciones** | **Paso** | **Acción** |
-| | N/A | No hay excepciones especificadas para este caso de uso. |
-| **Comentarios** |                       | |
+| **Excepciones** | N/A  |
+| **Comentarios** | Este caso de uso es fundamental para la interacción y comunicación dentro de la plataforma, permitiendo a los usuarios compartir información y experiencias. | |
 
-| **CU-002**  | **Conectar con Amigos**  |
-|-------------|---------------------------|
-| **Versión** | 1.0 (27/01/2024)         |
-| **Dependencias** | -                   |
-| **Precondición** | Ambos usuarios han iniciado sesión en la aplicación. |
-| **Descripción** | Permite al usuario conectar con otros usuarios, estableciendo una relación de amistad. |
+| **CU-002**  | **Conectar con Amigos**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)         | |
+| **Dependencias** | CU-001 Publicar Mensaje.  | |
+| **Precondición** | Ambos usuarios han iniciado sesión en la aplicación. | |
+| **Descripción** | Permite al usuario conectar con otros usuarios, estableciendo una relación de amistad. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El usuario busca a un amigo. |
 | | 2   | Envía una solicitud de amistad. |
 | | 3   | El otro usuario acepta la solicitud. |
-| **Postcondición** | Se establece una conexión de amistad entre los usuarios. |
+| | 4   | Le llega una nitificación de solicitud aceptada al usuario. |
+| **Postcondición** | Se establece una conexión de amistad entre los usuarios. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El otro usuario no acepta la solicitud de amistad. |
+| |     | E.1  | Se anula la solicitud. |
+| |     | E.2  | No llega la notificación de aceptación. |
 | |     | E.3  | Se cancela el caso de uso. |
-| **Comentarios** |                       |
+| **Comentarios** | Si el otro usuario no acepta la solicitud, se pueden considerar diferentes acciones, como cancelar la solicitud, reenviarla o contactar al usuario directamente. | |
 
-| **CU-003**  | **Enviar Solicitud de Amistad**  |
-|-------------|---------------------------------|
-| **Versión** | 1.0 (27/01/2024)                |
-| **Dependencias** | -                          |
-| **Precondición** | El usuario ha iniciado sesión en la aplicación. |
-| **Descripción** | Permite al usuario enviar una solicitud de amistad a otro usuario en la plataforma. |
+| **CU-003**  | **Enviar Solicitud de Amistad**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)                | |
+| **Dependencias** | CU-002 Conectar con Amigos.  | |
+| **Precondición** | El usuario ha iniciado sesión en la aplicación. | |
+| **Descripción** | Permite al usuario enviar una solicitud de amistad a otro usuario en la plataforma. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El usuario inicia sesión en la aplicación. |
 | | 2   | Busca al usuario deseado. |
 | | 3   | Selecciona la opción de enviar solicitud de amistad. |
 | | 4   | El sistema envía una notificación al usuario destinatario. |
 | **Postcondición** | Se envía una solicitud de amistad al usuario destinatario. |
-| **Excepciones** | N/A                            |
-| **Comentarios** |                               |
+| **Excepciones** | N/A  | |
+| **Comentarios** | Esta acción puede generar una expectativa de conexión entre usuarios, por lo que es importante considerar la calidad y el tono del mensaje de solicitud. | |
 
-| **CU-004**  | **Eliminar Publicación**  |
-|-------------|---------------------------|
-| **Versión** | 1.0 (27/01/2024)         |
-| **Dependencias** | -                   |
-| **Precondición** | El administrador ha iniciado sesión y tiene permisos de moderación. |
-| **Descripción** | Permite al administrador eliminar publicaciones de usuarios que infringen las normas de la plataforma. |
+| **CU-004**  | **Eliminar Publicación**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)         | |
+| **Dependencias** | CU-005 Ver Actividad.  | |
+| **Precondición** | El administrador ha iniciado sesión y tiene permisos de moderación. | |
+| **Descripción** | Permite al administrador eliminar publicaciones de usuarios que infringen las normas de la plataforma. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El administrador inicia sesión en la plataforma. |
 | | 2   | Accede a la sección de moderación. |
 | | 3   | Busca y selecciona la publicación a eliminar. |
 | | 4   | Confirma la eliminación. |
-| **Postcondición** | La publicación seleccionada es eliminada del sistema. |
-| **Excepciones** | N/A                   |
-| **Comentarios** |                       |
+| **Postcondición** | La publicación seleccionada es eliminada del sistema. | |
+| **Excepciones** | N/A                   | |
+| **Comentarios** | Al eliminar una publicación, es importante notificar al usuario afectado y, si es necesario, proporcionarle información sobre las políticas de la plataforma. | |
 
-| **CU-005**  | **Ver Actividad**  |
-|-------------|---------------------|
-| **Versión** | 1.0 (27/01/2024)   |
-| **Dependencias** | -             |
-| **Precondición** | El usuario ha iniciado sesión en la aplicación. |
-| **Descripción** | Permite al usuario ver la actividad reciente en su red, incluyendo publicaciones de amigos y eventos. |
+| **CU-005**  | **Ver Actividad**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)   | |
+| **Dependencias** | CU-004 Eliminar Publicación.  | |
+| **Precondición** | El usuario ha iniciado sesión en la aplicación. | |
+| **Descripción** | Permite al usuario ver la actividad reciente en su red, incluyendo publicaciones de amigos y eventos. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El usuario inicia sesión en la aplicación. |
 | | 2   | Accede a la sección de actividad. |
 | | 3   | Visualiza las publicaciones de amigos y eventos recientes. |
-| **Postcondición** | El usuario visualiza la actividad más reciente en su red. |
-| **Excepciones** | N/A        |
-| **Comentarios** |            |
+| **Postcondición** | El usuario visualiza la actividad más reciente en su red. | |
+| **Excepciones** | N/A        | |
+| **Comentarios** | Esta funcionalidad puede ayudar al usuario a mantenerse al día con las últimas novedades y eventos dentro de la plataforma. | |
 
-| **CU-006**  | **Gestionar Usuario**  |
-|-------------|------------------------|
-| **Versión** | 1.0 (27/01/2024)      |
-| **Dependencias** | -                |
-| **Precondición** | El administrador ha iniciado sesión y tiene permisos de gestión. |
-| **Descripción** | Permite al administrador gestionar usuarios, incluyendo la capacidad de ver, editar y eliminar cuentas. |
+| **CU-006**  | **Gestionar Usuario**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)      | |
+| **Dependencias** | CU-002 Conectar con Amigos. | |
+| **Precondición** | El administrador ha iniciado sesión y tiene permisos de gestión. | |
+| **Descripción** | Permite al administrador gestionar usuarios, incluyendo la capacidad de ver, editar y eliminar cuentas. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El administrador inicia sesión en la plataforma. |
 | | 2   | Accede a la sección de gestión de usuarios. |
 | | 3   | Busca y selecciona un usuario. |
 | | 4   | Visualiza, edita o elimina la cuenta según sea necesario. |
 | **Postcondición** | Se realiza la acción seleccionada sobre la cuenta de usuario. |
-| **Excepciones** | N/A          |
-| **Comentarios** |              |
+| **Excepciones** | N/A          | |
+| **Comentarios** | Este caso de uso proporciona al administrador el control necesario para mantener la integridad y seguridad de la plataforma, permitiendo una gestión efectiva de los usuarios y sus cuentas. | |
 
-| **CU-007**  | **Editar Perfil**  |
-|-------------|--------------------|
-| **Versión** | 1.0 (27/01/2024)  |
-| **Dependencias** | -          |
-| **Precondición** | El usuario ha iniciado sesión en la aplicación. |
-| **Descripción** | Permite al usuario editar la información de su perfil, incluyendo detalles como nombre, foto de perfil, biografía, intereses, etc. |
+| **CU-007**  | **Editar Perfil**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)  | |
+| **Dependencias** | CU-003 Enviar Solicitud de Amistad.  | |
+| **Precondición** | El usuario ha iniciado sesión en la aplicación. | |
+| **Descripción** | Permite al usuario editar la información de su perfil, incluyendo detalles como nombre, foto de perfil, biografía, intereses, etc. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El usuario inicia sesión en la aplicación. |
 | | 2   | Accede a la sección de edición de perfil. |
 | | 3   | Realiza las modificaciones deseadas en la información del perfil. |
 | | 4   | Guarda los cambios. |
-| **Postcondición** | La información del perfil del usuario se actualiza con los cambios realizados. |
-| **Excepciones** | N/A       |
-| **Comentarios** |             |
+| **Postcondición** | La información del perfil del usuario se actualiza con los cambios realizados. | |
+| **Excepciones** | N/A       | |
+| **Comentarios** | Este caso de uso permite a los usuarios mantener su información de perfil actualizada y personalizada según sus preferencias y necesidades. | |
 
-| **CU-008**  | **Moderar Contenido**  |
-|-------------|------------------------|
-| **Versión** | 1.0 (27/01/2024)      |
-| **Dependencias** | -              |
-| **Precondición** | El administrador ha iniciado sesión y tiene permisos de moderación. |
-| **Descripción** | Permite al administrador revisar y moderar contenido para asegurar el cumplimiento de las normas de la plataforma. |
+| **CU-008**  | **Moderar Contenido**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)      | |
+| **Dependencias** | CU-004 Eliminar Publicación. | |
+| **Precondición** | El administrador ha iniciado sesión y tiene permisos de moderación. | |
+| **Descripción** | Permite al administrador revisar y moderar contenido para asegurar el cumplimiento de las normas de la plataforma. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El administrador inicia sesión en la plataforma. |
 | | 2   | Accede a la sección de moderación. |
 | | 3   | Revisa y evalúa el contenido. |
 | | 4   | Aplica acciones moderadoras según las políticas de la plataforma. |
-| **Postcondición** | Se aplica la moderación al contenido seleccionado. |
-| **Excepciones** | N/A         |
-| **Comentarios** |              |
+| **Postcondición** | Se aplica la moderación al contenido seleccionado. | |
+| **Excepciones** | N/A         | |
+| **Comentarios** | La moderación de contenido es crucial para mantener un entorno seguro y respetuoso dentro de la plataforma, promoviendo una experiencia positiva para todos los usuarios. | |
 
-| **CU-009**  | **Bloquear Usuario**  |
-|-------------|------------------------|
-| **Versión** | 1.0 (27/01/2024)      |
-| **Dependencias** | -             |
-| **Precondición** | El usuario ha iniciado sesión en la aplicación. |
-| **Descripción** | Permite al usuario bloquear a otro usuario en la plataforma, impidiendo así la interacción entre ambos. |
+| **CU-009**  | **Bloquear Usuario**  | |
+|---|---|---|
+| **Versión** | 1.0 (27/01/2024)      | |
+| **Dependencias** | CU-002 Conectar con Amigos.  | |
+| **Precondición** | El usuario ha iniciado sesión en la aplicación. | |
+| **Descripción** | Permite al usuario bloquear a otro usuario en la plataforma, impidiendo así la interacción entre ambos. | |
 | **Secuencia normal** | **Paso** | **Acción** |
 | | 1   | El usuario inicia sesión en la aplicación. |
 | | 2   | Busca al usuario que desea bloquear. |
 | | 3   | Selecciona la opción de bloquear usuario. |
 | | 4   | Confirma la acción. |
-| **Postcondición** | El usuario seleccionado queda bloqueado y la interacción entre ambos se ve restringida. |
-| **Excepciones** | N/A          |
-| **Comentarios** |              |
+| **Postcondición** | El usuario seleccionado queda bloqueado y la interacción entre ambos se ve restringida. | |
+| **Excepciones** | **Paso** | **Comentarios** |
+| | 3   | El usuario cambia de opinión y decide no bloquearlo. |
+| |     | E.1  | Toca el boton de ir hacia atras. |
+| |     | E.2  | Se cancela el caso de uso. |
+| **Comentarios** | Bloquear a un usuario es una medida extrema y debe ser utilizada con precaución. Es importante que los usuarios comprendan las implicaciones de esta acción. | |
 
 ## Tabla de Relaciones de "Incluir"
 | Caso de Uso Principal  | Caso de Uso Incluido  | Descripción  |
