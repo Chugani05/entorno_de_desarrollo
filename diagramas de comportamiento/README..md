@@ -35,5 +35,10 @@
 | | X+1   | Acción del actor 2. |
 | | ...   | ... |
 | **Postcondición** | Descripción de la postcondición. | |
-| **Excepciones** | Descripción de las excepciones, si las hay. | |
+| **Excepciones** | **Paso** | **Comentarios** |
+| | X   | Descripción de las excepciones, si las hay. |
+| |     | E.1  | Manera de solucionarlo. |
+| |     | E.2  | Segundo paso para solucionarlo (si lo hay). |
+| |     | ...  | ... |
+| |     | E.X  | Se cancela el caso de uso. |
 | **Comentarios** | Comentarios adicionales sobre el caso de uso. | |
