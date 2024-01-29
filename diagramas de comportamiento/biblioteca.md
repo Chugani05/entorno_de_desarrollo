@@ -1,7 +1,7 @@
 # Biblioteca
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](Sistema-biblioteca.png)
+![Diagrama de comportamiento](imagen-biblioteca.png)
 
 ## Actores
 |  Actor | Usuario |

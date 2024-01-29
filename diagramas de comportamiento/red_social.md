@@ -1,7 +1,7 @@
 # Red social
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](Red-social.png)
+![Diagrama de comportamiento](imagen-red-social.png)
 
 ## Actores
 | Actor  | Usuario  |

@@ -2,7 +2,7 @@
 
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](imagen_app_transport.png)
+![Diagrama de comportamiento](imagen-app-transport.png)
 
 ## Actores
 | Actor | Administrador |

@@ -1,7 +1,7 @@
 # Reserva de vuelos
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](Reserva-vuelos.png)
+![Diagrama de comportamiento](imagen-reserva-vuelos.png)
 
 ## Actores
 |  Actor | Pasajero |
