@@ -76,3 +76,63 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Notas | - Se pueden aplicar políticas de cancelación y cargos. |
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 19/01/2024 |
+
+## Redacciónes de Casos de Uso
+| **CU-003**  | **Buscar Vuelo**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | Sistema de reservas de vuelos | |
+| **Precondición** | El pasajero ha iniciado sesión en el sistema. | |
+| **Descripción** | Permite al pasajero buscar vuelos disponibles según diferentes criterios. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El pasajero inicia sesión en el sistema. |
+| | 2   | El pasajero accede a la sección de búsqueda de vuelos. |
+| | 3   | El pasajero ingresa criterios como fecha, destino, etc. |
+| | 4   | El pasajero examina los resultados de la búsqueda. |
+| **Postcondición** | El pasajero visualiza una lista de vuelos que coinciden con los criterios de búsqueda. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Se pueden proporcionar opciones avanzadas de búsqueda. | |
+
+| **CU-002**  | **Reservar Vuelo**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | CU-001 Buscar Vuelo | |
+| **Precondición** | El pasajero ha iniciado sesión y ha encontrado un vuelo deseado. | |
+| **Descripción** | Permite al pasajero reservar un vuelo encontrado en la búsqueda. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El pasajero busca y selecciona un vuelo. |
+| | 2   | El pasajero proporciona la información necesaria para la reserva. |
+| | 3   | El pasajero confirma la reserva. |
+| **Postcondición** | El sistema registra la reserva asociada al pasajero. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Se puede proporcionar la opción de elegir asientos. | |
+
+| **CU-003**  | **Gestionar Reservas**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | CU-002 Reservar Vuelo | |
+| **Precondición** | El agente de reservas ha iniciado sesión y tiene permisos adecuados. | |
+| **Descripción** | Permite al agente de reservas buscar y gestionar reservas en nombre de los pasajeros. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El agente de reservas inicia sesión en el sistema. |
+| | 2   | El agente de reservas accede a la sección de gestión de reservas. |
+| | 3   | El agente de reservas busca y selecciona la reserva deseada. |
+| | 4   | El agente de reservas realiza acciones como modificar detalles o verificar el estado de la reserva. |
+| **Postcondición** | La reserva se actualiza según las acciones realizadas por el agente de reservas. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Puede requerir autenticación adicional para la seguridad. | |
+
+| **CU-004**  | **Cancelar Reservas**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | CU-002 Reserval Vuelo | |
+| **Precondición** | La reserva existe en el sistema y el actor tiene permisos para cancelar. | |
+| **Descripción** | Permite al agente de reservas o al pasajero cancelar una reserva existente. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El agente de reservas o pasajero inicia sesión en el sistema. |
+| | 2   | El agente de reservas o pasajero accede a la sección de gestión de reservas. |
+| | 3   | El agente de reservas o pasajero selecciona la reserva a cancelar. |
+| | 4   | El agente de reservas o pasajero confirma la cancelación. |
+| **Postcondición** | La reserva se marca como cancelada en el sistema. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Se pueden aplicar políticas de cancelación y cargos. | |
