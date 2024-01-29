@@ -1,3 +1,18 @@
+| **CU-XXX**  | **Nombre del Caso de Uso**  | |
+|---|---|---|
+| **Versión** | X.X (DD/MM/AAAA)      | |
+| **Dependencias** | CU-YYY Dependencia 1, CU-ZZZ Dependencia 2, etc. | |
+| **Precondición** | Descripción de la precondición. | |
+| **Descripción** | Descripción del caso de uso. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | X   | Acción del actor 1. |
+| | X+1   | Acción del actor 2. |
+| | ...   | ... |
+| **Postcondición** | Descripción de la postcondición. | |
+| **Excepciones** | Descripción de las excepciones, si las hay. | |
+| **Comentarios** | Comentarios adicionales sobre el caso de uso. | |
+
+
 | CU-016  | Registrar préstamo  |
 |---|---|
 | Versión  | 1.0 (27/01/2024)  |

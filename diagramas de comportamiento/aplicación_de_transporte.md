@@ -28,3 +28,19 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Notas | Este caso de uso es fundamental para mantener actualizado el catálogo de medios de transporte disponibles en el sistema. |
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 16/01/2024 |
+
+## Redacciónes de Casos de Uso
+| **CU-XXX**  | **Definir Medio de Transporte**  | |
+|---|---|---|
+| **Versión** | 1.0 (28/01/2024)      | |
+| **Dependencias** | N/A | |
+| **Precondición** | El administrador ha iniciado sesión en el sistema. | |
+| **Descripción** | Permite al administrador definir un nuevo medio de transporte en el sistema, especificando sus características y parámetros. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El administrador inicia sesión en el sistema. |
+| | 2   | El administrador navega a la sección de "Definir Medio de Transporte". |
+| | 3   | El administrador ingresa la información del nuevo medio de transporte (nombre, tipo, capacidad, etc.). |
+| | 4   | El administrador confirma la adición del nuevo medio de transporte. |
+| **Postcondición** | El nuevo medio de transporte se registra en el sistema y está disponible para su uso. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Este caso de uso es fundamental para mantener actualizado el catálogo de medios de transporte disponibles en el sistema. | |
