@@ -76,3 +76,70 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Notas | - Se puede incluir la capacidad de cargar información en formato de archivo para realizar actualizaciones masivas. - El sistema puede generar registros de cambios para mantener un historial del catálogo. |
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 18/01/2024 |
+
+## Redacciónes de Casos de Uso
+| **CU-001**  | **Buscar Libro**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | N/A | |
+| **Precondición** | El usuario ha iniciado sesión en el sistema. | |
+| **Descripción** | Permite al usuario buscar libros en el catálogo de la biblioteca. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El usuario inicia sesión en el sistema. |
+| | 2   | El usuario navega al catálogo de libros. |
+| | 3   | El usuario ingresa criterios de búsqueda (título, autor, etc.). |
+| | 4   | El usuario examina los resultados de búsqueda. |
+| **Postcondición** | El usuario visualiza una lista de libros que coinciden con los criterios de búsqueda. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Se pueden proporcionar filtros avanzados para mejorar la precisión de la búsqueda. | |
+
+| **CU-002**  | **Prestar Libros**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | CU-003 Devolver Libros | |
+| **Precondición** | El bibliotecario ha iniciado sesión y tiene los permisos adecuados. | |
+| **Descripción** | Permite al bibliotecario gestionar los préstamos de libros realizados por los usuarios. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El bibliotecario inicia sesión en el sistema. |
+| | 2   | El bibliotecario accede a la sección de gestión de préstamos. |
+| | 3   | El bibliotecario visualiza los préstamos activos y su estado. |
+| | 4   | El bibliotecario registra la el prestamo del libro. |
+| **Postcondición** | El sistema registra la devolución de libros y actualiza el estado de los préstamos. | |
+| **Excepciones** | **Paso** | **Comentarios** |
+| | 3   | El bibliotecario no puede realizar el prestamo debido a que el usuario tiene penalizaciones. |
+| |     | E.1  | El bibliotecario notifica al usuario de que no se le puede realizar el prestamo por la penalización. |
+| |     | E.2  | El usuario debe esperar a que termine el periodo de penalización. |
+| |     | E.3  | Se cancela el caso de uso. |
+| **Comentarios** | Se pueden generar multas por devoluciones tardías. | |
+
+| **CU-003**  | **Devolver Libro**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | CU-002 Prestar Libros | |
+| **Precondición** | El usuario ha iniciado sesión y tiene libros prestados. | |
+| **Descripción** | Permite al usuario devolver un libro prestado a la biblioteca. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El usuario inicia sesión en el sistema. |
+| | 2   | El usuario accede a la sección de "Mis Préstamos" o una función similar. |
+| | 3   | El usuario selecciona el libro que desea devolver. |
+| | 4   | El usuario confirma la devolución. |
+| | 5   | El sistema verifica la devolución y actualiza el estado del libro. |
+| **Postcondición** | El libro se registra como devuelto, y el estado del préstamo se actualiza en el sistema. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Se pueden generar recordatorios automáticos para la devolución próxima. Puede haber un período de gracia para devoluciones tardías antes de aplicar multas. | |
+
+| **CU-004**  | **Actualizar Catálogo**  | |
+|---|---|---|
+| **Versión** | 1.0 (29/01/2024)      | |
+| **Dependencias** | CU-002 Prestar Libros | |
+| | CU-003 Devolver Libros | |
+| **Precondición** | El bibliotecario ha iniciado sesión y tiene los permisos adecuados. | |
+| **Descripción** | Permite al bibliotecario agregar, eliminar o actualizar información en el catálogo de la biblioteca. | |
+| **Secuencia normal** | **Paso** | **Acción** |
+| | 1   | El bibliotecario inicia sesión en el sistema. |
+| | 2   | El bibliotecario accede a la sección de gestión de catálogo. |
+| | 3   | El bibliotecario selecciona la opción de actualizar catálogo. |
+| | 4   | El bibliotecario agrega nuevos libros, actualiza detalles o elimina registros según sea necesario. |
+| **Postcondición** | El catálogo se actualiza según las modificaciones realizadas por el bibliotecario. | |
+| **Excepciones** | N/A | |
+| **Comentarios** | Se puede incluir la capacidad de cargar información en formato de archivo para realizar actualizaciones masivas. El sistema puede generar registros de cambios para mantener un historial del catálogo. | |

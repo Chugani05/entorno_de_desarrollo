@@ -30,7 +30,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fecha | 16/01/2024 |
 
 ## Redacciónes de Casos de Uso
-| **CU-XXX**  | **Definir Medio de Transporte**  | |
+| **CU-001**  | **Definir Medio de Transporte**  | |
 |---|---|---|
 | **Versión** | 1.0 (28/01/2024)      | |
 | **Dependencias** | N/A | |
