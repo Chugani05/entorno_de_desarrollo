@@ -284,10 +284,15 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | |     | E.2   Se cancela el caso de uso. |
 | **Comentarios** | Bloquear a un usuario es una medida extrema y debe ser utilizada con precaución. Es importante que los usuarios comprendan las implicaciones de esta acción. | |
 
-## Tabla de Relaciones de "Incluir"
+## Tabla de Relaciones de "Include"
 | Caso de Uso Principal  | Caso de Uso Incluido  | Descripción  |
 |---|---|---|
 | Conectar con Amigos  | Enviar Solicitud de Amistad  | Permite al usuario enviar solicitudes de amistad a otros usuarios.  |
 | Gestionar Usuarios  | Editar Perfil  | Permite al usuario editar la información de su perfil.  |
 | Moderar Contenido  | Bloquear Usuario  | Permite al moderador bloquear a un usuario, restringiendo su acceso.  |
 | Moderar Contenido  | Eliminar Publicacion  | Permite al moderador eliminar contenido inapropiado o no permitido.  |
+
+## Diagrama de secuencias
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "":
+
+![Diagrama de secuencias]()

@@ -211,3 +211,8 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El administrador puede acceder y revisar la información de los clientes registrados en el sistema. | |
 | **Excepciones** | N/A  |
 | **Comentarios** | Puede incluir información sobre preferencias de productos o historial de compras. | |
+
+## Diagrama de secuencias
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "":
+
+![Diagrama de secuencias]()

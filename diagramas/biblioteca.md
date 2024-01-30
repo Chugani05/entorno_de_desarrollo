@@ -143,3 +143,8 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El catálogo se actualiza según las modificaciones realizadas por el bibliotecario. | |
 | **Excepciones** | N/A | |
 | **Comentarios** | Se puede incluir la capacidad de cargar información en formato de archivo para realizar actualizaciones masivas. El sistema puede generar registros de cambios para mantener un historial del catálogo. | |
+
+## Diagrama de secuencias
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "":
+
+![Diagrama de secuencias]()

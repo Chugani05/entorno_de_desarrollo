@@ -308,7 +308,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | |     | E.6   Se cancela el caso de uso. |
 | **Comentarios** | Los informes generados deben ser claros, detallados y comprensibles para los usuarios finales. | |
 
-## Tabla de Relaciones de "Incluir"
+## Tabla de Relaciones de "Include"
 | Caso de Uso Principal  | Caso de Uso Incluido  | Descripción  |
 |---|---|---|
 | Hacer login  | Realizar transferencia  | El usuario debe estar autenticado para realizar una transferencia. |
@@ -317,3 +317,8 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Acceder al sistema  | Modificar límite de retiro  | Acceder al sistema es necesario para ajustar el límite de retiro para los usuarios. |
 | Acceder al sistema  | Realizar mantenimiento del cajero  | Se necesita acceso al sistema para llevar a cabo tareas de mantenimiento en el cajero automático. |
 | Acceder al sistema  | Generar informe  | Permite acceder al sistema para generar informes sobre transacciones u otros datos relevantes. |
+
+## Diagrama de secuencias
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Hacer login":
+
+![Diagrama de secuencias]()
