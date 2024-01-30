@@ -158,12 +158,12 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El cliente está autenticado en su cuenta bancaria. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El el sistema no consigue validar las credenciales.   |
-| |     | E.1  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.2  | Vuelve a dar error. |
-| |     | E.3  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.4  | Vuelve a dar error. |
-| |     | E.5  | Se bloquea la trjeta. |
-| |     | E.6  | Se cancela el caso de uso. |
+| |     | E.1   Intentar ingresar las credenciales de nuevo. |
+| |     | E.2   Vuelve a dar error. |
+| |     | E.3   Intentar ingresar las credenciales de nuevo. |
+| |     | E.4   Vuelve a dar error. |
+| |     | E.5   Se bloquea la trjeta. |
+| |     | E.6   Se cancela el caso de uso. |
 | **Comentarios** | El sistema debe cifrar el PIN ingresado por el cliente para proteger la seguridad de la cuenta. | |
 
 | **CU-002**  | **Realizar transferencia**  | |
@@ -181,7 +181,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se realiza con éxito la transferencia de fondos. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El el sistema detecta que no hay suficente fondos en la cuenta.   |
-| |     | E.1  | Se cancela el caso de uso. |
+| |     | E.1   Se cancela el caso de uso. |
 | **Comentarios** | El sistema debe enviar un mensaje de confirmación al cliente después de completar la transferencia. | |
 
 | **CU-003**  | **Ingresar dinero**  | |
@@ -227,7 +227,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se realiza con éxito la transferencia de fondos a la cuenta móvil del cliente. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El el sistema detecta que no hay suficente fondos en la cuenta.   |
-| |     | E.1  | Se cancela el caso de uso. |
+| |     | E.1   Se cancela el caso de uso. |
 | **Comentarios** | El cliente recibirá una confirmación de la transferencia en su dispositivo móvil después de completar la transacción. | |
 
 | **CU-006**  | **Acceder al sistema**  | |
@@ -243,12 +243,12 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El administrador está autenticado en el sistema de administración del cajero. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 2   | El el sistema no consigue validar las credenciales.   |
-| |     | E.1  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.2  | Vuelve a dar error. |
-| |     | E.3  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.4  | Vuelve a dar error. |
-| |     | E.5  | Se bloquea la seción. |
-| |     | E.6  | Se cancela el caso de uso. |
+| |     | E.1   Intentar ingresar las credenciales de nuevo. |
+| |     | E.2   Vuelve a dar error. |
+| |     | E.3   Intentar ingresar las credenciales de nuevo. |
+| |     | E.4   Vuelve a dar error. |
+| |     | E.5   Se bloquea la seción. |
+| |     | E.6   Se cancela el caso de uso. |
 | **Comentarios** | El acceso al sistema de administración debe estar restringido solo a usuarios autorizados mediante autenticación segura. | |
 
 | **CU-007**  | **Modificar límites de retiro**  | |
@@ -279,12 +279,12 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se completan las tareas de mantenimiento en el cajero. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 1   | El el sistema no consigue validar las credenciales.   |
-| |     | E.1  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.2  | Vuelve a dar error. |
-| |     | E.3  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.4  | Vuelve a dar error. |
-| |     | E.5  | Se bloquea la seción. |
-| |     | E.6  | Se cancela el caso de uso. |
+| |     | E.1   Intentar ingresar las credenciales de nuevo. |
+| |     | E.2   Vuelve a dar error. |
+| |     | E.3   Intentar ingresar las credenciales de nuevo. |
+| |     | E.4   Vuelve a dar error. |
+| |     | E.5   Se bloquea la seción. |
+| |     | E.6   Se cancela el caso de uso. |
 | **Comentarios** | Se debe garantizar que las tareas de mantenimiento no afecten la disponibilidad del cajero durante las horas de mayor actividad. | |
 
 | **CU-009**  | **Generar informes**  | |
@@ -300,10 +300,20 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se genera con éxito el informe solicitado. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 1   | El el sistema no consigue validar las credenciales.   |
-| |     | E.1  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.2  | Vuelve a dar error. |
-| |     | E.3  | Intentar ingresar las credenciales de nuevo. |
-| |     | E.4  | Vuelve a dar error. |
-| |     | E.5  | Se bloquea la seción. |
-| |     | E.6  | Se cancela el caso de uso. |
+| |     | E.1   Intentar ingresar las credenciales de nuevo. |
+| |     | E.2   Vuelve a dar error. |
+| |     | E.3   Intentar ingresar las credenciales de nuevo. |
+| |     | E.4   Vuelve a dar error. |
+| |     | E.5   Se bloquea la seción. |
+| |     | E.6   Se cancela el caso de uso. |
 | **Comentarios** | Los informes generados deben ser claros, detallados y comprensibles para los usuarios finales. | |
+
+## Tabla de Relaciones de "Incluir"
+| Caso de Uso Principal  | Caso de Uso Incluido  | Descripción  |
+|---|---|---|
+| Hacer login  | Realizar transferencia  | El usuario debe estar autenticado para realizar una transferencia. |
+| Hacer login  | Ingresar dinero  | Requiere autenticación del usuario para depositar dinero en la cuenta. |
+| Hacer login  | Ver saldo  | Después del inicio de sesión, el usuario puede ver su saldo actual. |
+| Acceder al sistema  | Modificar límite de retiro  | Acceder al sistema es necesario para ajustar el límite de retiro para los usuarios. |
+| Acceder al sistema  | Realizar mantenimiento del cajero  | Se necesita acceso al sistema para llevar a cabo tareas de mantenimiento en el cajero automático. |
+| Acceder al sistema  | Generar informe  | Permite acceder al sistema para generar informes sobre transacciones u otros datos relevantes. |

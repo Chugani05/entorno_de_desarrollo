@@ -172,9 +172,9 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se establece una conexión de amistad entre los usuarios. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El otro usuario no acepta la solicitud de amistad. |
-| |     | E.1  | Se anula la solicitud. |
-| |     | E.2  | No llega la notificación de aceptación. |
-| |     | E.3  | Se cancela el caso de uso. |
+| |     | E.1   Se anula la solicitud. |
+| |     | E.2   No llega la notificación de aceptación. |
+| |     | E.3   Se cancela el caso de uso. |
 | **Comentarios** | Si el otro usuario no acepta la solicitud, se pueden considerar diferentes acciones, como cancelar la solicitud, reenviarla o contactar al usuario directamente. | |
 
 | **CU-003**  | **Enviar Solicitud de Amistad**  | |
@@ -280,8 +280,8 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El usuario seleccionado queda bloqueado y la interacción entre ambos se ve restringida. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El usuario cambia de opinión y decide no bloquearlo. |
-| |     | E.1  | Toca el boton de ir hacia atras. |
-| |     | E.2  | Se cancela el caso de uso. |
+| |     | E.1   Toca el boton de ir hacia atras. |
+| |     | E.2   Se cancela el caso de uso. |
 | **Comentarios** | Bloquear a un usuario es una medida extrema y debe ser utilizada con precaución. Es importante que los usuarios comprendan las implicaciones de esta acción. | |
 
 ## Tabla de Relaciones de "Incluir"

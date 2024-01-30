@@ -149,7 +149,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | La compra se registra en el sistema, y los productos se reservan para el cliente. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El cliente decide no hacer la compra en ese momento. |
-| |     | E.1  | Se cancela el caso de uso. |
+| |     | E.1   Se cancela el caso de uso. |
 | **Comentarios** | Se pueden proporcionar opciones para aplicar cupones o descuentos. | |
 
 | **CU-004**  | **Gestionar Inventario**  | |

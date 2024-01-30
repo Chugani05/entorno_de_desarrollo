@@ -107,9 +107,9 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El sistema registra la devolución de libros y actualiza el estado de los préstamos. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El bibliotecario no puede realizar el prestamo debido a que el usuario tiene penalizaciones. |
-| |     | E.1  | El bibliotecario notifica al usuario de que no se le puede realizar el prestamo por la penalización. |
-| |     | E.2  | El usuario debe esperar a que termine el periodo de penalización. |
-| |     | E.3  | Se cancela el caso de uso. |
+| |     | E.1   El bibliotecario notifica al usuario de que no se le puede realizar el prestamo por la penalización. |
+| |     | E.2   El usuario debe esperar a que termine el periodo de penalización. |
+| |     | E.3   Se cancela el caso de uso. |
 | **Comentarios** | Se pueden generar multas por devoluciones tardías. | |
 
 | **CU-003**  | **Devolver Libro**  | |
