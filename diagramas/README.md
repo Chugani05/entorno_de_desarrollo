@@ -43,7 +43,7 @@
 | |     | E.X  | Se cancela el caso de uso. |
 | **Comentarios** | Comentarios adicionales sobre el caso de uso. | |
 
-## Tabla de Relaciones de "Incluir"
+## Tabla de Relaciones de "Include"
 | Caso de Uso Principal  | Caso de Uso Incluido  | Descripción  |
 |-------------------------|------------------------|--------------|
 | ...                     | ...                    | ...          |
