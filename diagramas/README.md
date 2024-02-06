@@ -1,3 +1,4 @@
+# Diagrama de caso de uso
 ## Actores
 |  Actor | XXX (Nombre del Actor) |
 |---|---|
@@ -48,4 +49,7 @@
 |-------------------------|------------------------|--------------|
 | ...                     | ...                    | ...          |
 
+# Diagrama de secuencia
+# Diagrama de actividades
+# Diagrama de clase
 
