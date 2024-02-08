@@ -319,6 +319,6 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Acceder al sistema  | Generar informe  | Permite acceder al sistema para generar informes sobre transacciones u otros datos relevantes. |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal:
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Ingresar dinero":
 
 ![Diagrama de secuencias](diagrama_de_secuencia_cajero_automatico.png)
