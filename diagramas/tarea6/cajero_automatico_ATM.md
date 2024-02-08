@@ -2,7 +2,7 @@
 
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](Gestion_de_un_cajero.png)
+![Diagrama de comportamiento](gestion_de_un_cajero.png)
 
 ## Actores
 |  Actor | Administrador |
@@ -321,4 +321,4 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 ## Diagrama de secuencias
 A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal:
 
-![Diagrama de secuencias](Diagrama_de_secuencia_cajero_automatico.png)
+![Diagrama de secuencias](diagrama_de_secuencia_cajero_automatico.png)
