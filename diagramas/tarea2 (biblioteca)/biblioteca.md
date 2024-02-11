@@ -145,6 +145,6 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Comentarios** | Se puede incluir la capacidad de cargar información en formato de archivo para realizar actualizaciones masivas. El sistema puede generar registros de cambios para mantener un historial del catálogo. | |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "":
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Prestamo de libros":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](diagrama_secuencias_gestion_biblioteca.png)
