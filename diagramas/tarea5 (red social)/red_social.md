@@ -293,6 +293,6 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Moderar Contenido  | Eliminar Publicacion  | Permite al moderador eliminar contenido inapropiado o no permitido.  |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "":
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Publicar mensaje":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](diagrama_secuencias_red_social.png)

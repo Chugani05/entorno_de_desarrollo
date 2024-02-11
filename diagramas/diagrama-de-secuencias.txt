@@ -1,1 +1,1 @@
-https://github.com/Chugani05/entorno_de_desarrollo/blob/main/diagramas/tarea3%20(reserva%20vuelos)/diagrama_secuencias_reserva_vuelos.png
+https://github.com/Chugani05/entorno_de_desarrollo/blob/main/diagramas/tarea5%20(red%20social)/diagrama_secuencias_red_social.png
