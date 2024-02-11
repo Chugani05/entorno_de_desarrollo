@@ -138,6 +138,6 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Comentarios** | Se pueden aplicar políticas de cancelación y cargos. | |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "":
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Reservar vuelo":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](diagrama_secuencias_reserva_vuelos.png)
