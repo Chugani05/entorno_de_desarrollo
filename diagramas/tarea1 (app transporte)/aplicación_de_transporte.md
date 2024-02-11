@@ -20,7 +20,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fuentes | Documento de requisitos del sistema. |
 | Actor | Administrador |
 | Descripción | Permite al administrador definir un nuevo medio de transporte en el sistema, especificando sus características y parámetros. |
-| Flujo básico | 1. El administrador inicia sesión en el sistema. 2. Navega a la sección de "Definir Medio de Transporte". 3. Ingresa la información del nuevo medio de transporte (nombre, tipo, capacidad, etc.). 4. Confirma la adición del nuevo medio de transporte. |
+| Flujo básico | 1. El administrador inicia sesión en el sistema. <br> 2. Navega a la sección de "Definir Medio de Transporte". <br> 3. Ingresa la información del nuevo medio de transporte (nombre, tipo, capacidad, etc.). <br> 4. Confirma la adición del nuevo medio de transporte. |
 | Pre-condiciones | El administrador ha iniciado sesión en el sistema. |
 | Post-condiciones | El nuevo medio de transporte se registra en el sistema y está disponible para su uso. |
 | Requerimientos | Acceso a la función de administración de medios de transporte. |

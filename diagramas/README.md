@@ -28,7 +28,7 @@
 | **CU-XXX**  | **Nombre del Caso de Uso**  | |
 |---|---|---|
 | **Versión** | X.X (DD/MM/AAAA)      | |
-| **Dependencias** | CU-YYY Dependencia 1, CU-ZZZ Dependencia 2, etc. | |
+| **Dependencias** | CU-YYY Dependencia 1 <br> CU-ZZZ Dependencia 2, etc. | |
 | **Precondición** | Descripción de la precondición. | |
 | **Descripción** | Descripción del caso de uso. | |
 | **Secuencia normal** | **Paso** | **Acción** |
@@ -38,10 +38,7 @@
 | **Postcondición** | Descripción de la postcondición. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | X   | Descripción de las excepciones, si las hay. |
-| |     | E.1  | Manera de solucionarlo. |
-| |     | E.2  | Segundo paso para solucionarlo (si lo hay). |
-| |     | ...  | ... |
-| |     | E.X  | Se cancela el caso de uso. |
+| |     | *E.1* Manera de solucionarlo. <br> *E.2* Segundo paso para solucionarlo (si lo hay). <br> *...* ... <br> *E.X* Se cancela el caso de uso. |
 | **Comentarios** | Comentarios adicionales sobre el caso de uso. | |
 
 ## Tabla de Relaciones de "Include"

@@ -7,7 +7,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 |  Actor | Pasajero |
 |---|---|
 | Descripción  | Persona que utiliza el sistema de reservas de vuelos para buscar, reservar y gestionar vuelos. |
-| Características  | - Puede buscar vuelos por diferentes criterios. - Tiene la capacidad de realizar reservas. - Puede cancelar sus propias reservas. |
+| Características  | - Puede buscar vuelos por diferentes criterios. <br> - Tiene la capacidad de realizar reservas. <br> - Puede cancelar sus propias reservas. |
 | Relaciones | - Realiza acciones similares al "Agente de Reservas" al buscar vuelos y gestionar reservas. |
 | Referencias | Buscar Vuelo, Reservar Vuelo, Cancelar Reserva |
 | Notas | - Puede tener preferencias de asiento o necesidades especiales. |
@@ -17,7 +17,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 |  Actor | Agente de Reservas |
 |---|---|
 | Descripción  | Persona que trabaja en el sistema de reservas de vuelos para gestionar reservas en nombre de los pasajeros. |
-| Características  | - Tiene la capacidad de buscar y gestionar reservas en nombre de los pasajeros. - Puede cancelar reservas. |
+| Características  | - Tiene la capacidad de buscar y gestionar reservas en nombre de los pasajeros. <br> - Puede cancelar reservas. |
 | Relaciones | - Realiza acciones similares al "Pasajero" al buscar vuelos y gestionar reservas. |
 | Referencias | Gestionar Reservas, Cancelar Reserva |
 | Notas | - Puede tener acceso a información adicional y herramientas de gestión. |
@@ -30,7 +30,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fuentes  | Sistema de reservas de vuelos |
 | Actor  | Pasajero  |
 | Descripción | Permite al pasajero buscar vuelos disponibles según diferentes criterios.  |
-| Flujo básico | 1. El pasajero inicia sesión en el sistema. 2. Accede a la sección de búsqueda de vuelos. 3. Ingresa criterios como fecha, destino, etc. 4. Examina los resultados de la búsqueda. |
+| Flujo básico | 1. El pasajero inicia sesión en el sistema. <br> 2. Accede a la sección de búsqueda de vuelos. <br> 3. Ingresa criterios como fecha, destino, etc. <br> 4. Examina los resultados de la búsqueda. |
 | Pre-condiciones | El pasajero ha iniciado sesión en el sistema. |
 | Post-condiciones  | El pasajero visualiza una lista de vuelos que coinciden con los criterios de búsqueda.  |
 | Requerimientos | Conexión a Internet para acceder a la base de datos de vuelos.  |
@@ -43,7 +43,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fuentes  | Sistema de reservas de vuelos |
 | Actor  | Pasajero  |
 | Descripción | Permite al pasajero reservar un vuelo encontrado en la búsqueda.  |
-| Flujo básico | 1. El pasajero busca y selecciona un vuelo. 2. Proporciona la información necesaria para la reserva. 3. Confirma la reserva. |
+| Flujo básico | 1. El pasajero busca y selecciona un vuelo. <br> 2. Proporciona la información necesaria para la reserva. <br> 3. Confirma la reserva. |
 | Pre-condiciones | El pasajero ha iniciado sesión y ha encontrado un vuelo deseado. |
 | Post-condiciones  | El sistema registra la reserva asociada al pasajero.  |
 | Requerimientos | Disponibilidad del vuelo y detalles del pasajero.  |
@@ -56,7 +56,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fuentes  | Sistema de reservas de vuelos |
 | Actor  | Agente de Reservas  |
 | Descripción | Permite al agente de reservas buscar y gestionar reservas en nombre de los pasajeros.  |
-| Flujo básico | 1. El agente de reservas inicia sesión en el sistema. 2. Accede a la sección de gestión de reservas. 3. Busca y selecciona la reserva deseada. 4. Realiza acciones como modificar detalles o verificar el estado de la reserva. |
+| Flujo básico | 1. El agente de reservas inicia sesión en el sistema. <br> 2. Accede a la sección de gestión de reservas. <br> 3. Busca y selecciona la reserva deseada. <br> 4. Realiza acciones como modificar detalles o verificar el estado de la reserva. |
 | Pre-condiciones | El agente de reservas ha iniciado sesión y tiene permisos adecuados. |
 | Post-condiciones  | La reserva se actualiza según las acciones realizadas por el agente de reservas.  |
 | Requerimientos | Conexión a Internet para acceder a la base de datos de reservas.  |
@@ -69,7 +69,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Fuentes  | Sistema de reservas de vuelos |
 | Actor  | Agente de Reservas, Pasajero  |
 | Descripción | Permite al agente de reservas o al pasajero cancelar una reserva existente.  |
-| Flujo básico | 1. El agente de reservas o pasajero inicia sesión en el sistema. 2. Accede a la sección de gestión de reservas. 3. Selecciona la reserva a cancelar. 4. Confirma la cancelación. |
+| Flujo básico | 1. El agente de reservas o pasajero inicia sesión en el sistema. <br> 2. Accede a la sección de gestión de reservas. <br> 3. Selecciona la reserva a cancelar. <br> 4. Confirma la cancelación. |
 | Pre-condiciones | La reserva existe en el sistema y el actor tiene permisos para cancelar. |
 | Post-condiciones  | La reserva se marca como cancelada en el sistema.  |
 | Requerimientos | La reserva no debe estar en un estado que impida la cancelación.  |

@@ -88,5 +88,5 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Post-condiciones | El cliente recibe una factura detallada. |
 | Requerimientos | Ninguno               |
 | Notas       | La factura puede incluir detalles como el costo de la mano de obra, el costo de las piezas reemplazadas y los impuestos aplicables. |
-| Autor       | Taller XYZ            |
-| Fecha       | 2024-02-11            |
+| Autor | Rashi Chugani Narwanni |
+| Fecha | 11/02/2024 |

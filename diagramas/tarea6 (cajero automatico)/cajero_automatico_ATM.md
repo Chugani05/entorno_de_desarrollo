@@ -164,8 +164,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **CU-002**  | **Realizar transferencia**  | |
 |---|---|---|
 | **Versión** | 1.0 (30/01/2024)      | |
-| **Dependencias** | CU-001 Hacer login | |
-| | CU-003 Ingresar dinero | |
+| **Dependencias** | CU-001 Hacer login <br> CU-003 Ingresar dinero | |
 | **Precondición** | El cliente debe estar autenticado en su cuenta bancaria. | |
 | **Descripción** | Permite al cliente bancario transferir fondos a otra cuenta bancaria. | |
 | **Secuencia normal** | **Paso** | **Acción** |
@@ -176,7 +175,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se realiza con éxito la transferencia de fondos. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El el sistema detecta que no hay suficente fondos en la cuenta.   |
-| |     | E.1   Se cancela el caso de uso. |
+| |     | *E.1* Se cancela el caso de uso. |
 | **Comentarios** | El sistema debe enviar un mensaje de confirmación al cliente después de completar la transferencia. | |
 
 | **CU-003**  | **Ingresar dinero**  | |
@@ -210,8 +209,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **CU-005**  | **Poner dinero en el móvil**  | |
 |---|---|---|
 | **Versión** | 1.0 (30/01/2024)      | |
-| **Dependencias** | CU-003 Ingresar dinero | |
-| | CU-004 Ver saldo | |
+| **Dependencias** | CU-003 Ingresar dinero <br> CU-004 Ver saldo | |
 | **Precondición** | El cliente debe estar autenticado en su cuenta bancaria. La cuenta móvil debe estar previamente asociada a la cuenta bancaria del cliente. | |
 | **Descripción** | Permite al cliente bancario transferir fondos a su cuenta móvil asociada. | |
 | **Secuencia normal** | **Paso** | **Acción** |
@@ -222,7 +220,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se realiza con éxito la transferencia de fondos a la cuenta móvil del cliente. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 3   | El el sistema detecta que no hay suficente fondos en la cuenta.   |
-| |     | E.1   Se cancela el caso de uso. |
+| |     | *E.1* Se cancela el caso de uso. |
 | **Comentarios** | El cliente recibirá una confirmación de la transferencia en su dispositivo móvil después de completar la transacción. | |
 
 | **CU-006**  | **Acceder al sistema**  | |
@@ -238,12 +236,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El administrador está autenticado en el sistema de administración del cajero. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 2   | El el sistema no consigue validar las credenciales.   |
-| |     | E.1   Intentar ingresar las credenciales de nuevo. |
-| |     | E.2   Vuelve a dar error. |
-| |     | E.3   Intentar ingresar las credenciales de nuevo. |
-| |     | E.4   Vuelve a dar error. |
-| |     | E.5   Se bloquea la seción. |
-| |     | E.6   Se cancela el caso de uso. |
+| |     | *E.1* Intentar ingresar las credenciales de nuevo. <br> *E.2* Vuelve a dar error. <br> *E.3* Intentar ingresar las credenciales de nuevo. <br> *E.4* Vuelve a dar error. <br> *E.5* Se bloquea la seción. <br> *E.6* Se cancela el caso de uso. |
 | **Comentarios** | El acceso al sistema de administración debe estar restringido solo a usuarios autorizados mediante autenticación segura. | |
 
 | **CU-007**  | **Modificar límites de retiro**  | |
@@ -274,12 +267,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se completan las tareas de mantenimiento en el cajero. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 1   | El el sistema no consigue validar las credenciales.   |
-| |     | E.1   Intentar ingresar las credenciales de nuevo. |
-| |     | E.2   Vuelve a dar error. |
-| |     | E.3   Intentar ingresar las credenciales de nuevo. |
-| |     | E.4   Vuelve a dar error. |
-| |     | E.5   Se bloquea la seción. |
-| |     | E.6   Se cancela el caso de uso. |
+| |     | *E.1* Intentar ingresar las credenciales de nuevo. <br> *E.2* Vuelve a dar error. <br> *E.3* Intentar ingresar las credenciales de nuevo. <br> *E.4* Vuelve a dar error. <br> *E.5* Se bloquea la seción. <br> *E.6* Se cancela el caso de uso. |
 | **Comentarios** | Se debe garantizar que las tareas de mantenimiento no afecten la disponibilidad del cajero durante las horas de mayor actividad. | |
 
 | **CU-009**  | **Generar informes**  | |
@@ -295,12 +283,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | Se genera con éxito el informe solicitado. | |
 | **Excepciones** | **Paso** | **Comentarios** |
 | | 1   | El el sistema no consigue validar las credenciales.   |
-| |     | E.1   Intentar ingresar las credenciales de nuevo. |
-| |     | E.2   Vuelve a dar error. |
-| |     | E.3   Intentar ingresar las credenciales de nuevo. |
-| |     | E.4   Vuelve a dar error. |
-| |     | E.5   Se bloquea la seción. |
-| |     | E.6   Se cancela el caso de uso. |
+| |     | *E.1* Intentar ingresar las credenciales de nuevo. <br> *E.2* Vuelve a dar error. <br> *E.3* Intentar ingresar las credenciales de nuevo. <br> *E.4* Vuelve a dar error. <br> *E.5* Se bloquea la seción. <br> *E.6* Se cancela el caso de uso. |
 | **Comentarios** | Los informes generados deben ser claros, detallados y comprensibles para los usuarios finales. | |
 
 ## Tabla de Relaciones de "Include"
