@@ -1,1 +1,1 @@
-https://github.com/Chugani05/entorno_de_desarrollo/blob/main/diagramas/tarea6%20(cajero%20automatico)/diagrama_de_secuencia_cajero_automatico.png
+https://github.com/Chugani05/entorno_de_desarrollo/blob/main/diagramas/tarea2%20(biblioteca)/diagrama_secuencias_gestion_biblioteca.png

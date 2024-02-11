@@ -43,8 +43,3 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El nuevo medio de transporte se registra en el sistema y está disponible para su uso. | |
 | **Excepciones** | N/A | |
 | **Comentarios** | Este caso de uso es fundamental para mantener actualizado el catálogo de medios de transporte disponibles en el sistema. | |
-
-## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Definir Medio de Transporte":
-
-![Diagrama de secuencias]()

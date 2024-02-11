@@ -136,3 +136,8 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | La reserva se marca como cancelada en el sistema. | |
 | **Excepciones** | N/A | |
 | **Comentarios** | Se pueden aplicar políticas de cancelación y cargos. | |
+
+## Diagrama de secuencias
+A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "":
+
+![Diagrama de secuencias]()
