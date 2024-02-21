@@ -300,3 +300,8 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Ingresar dinero":
 
 ![Diagrama de secuencias](diagrama_secuencias_cajero_automatico.png)
+
+## Diagrama de actividades
+A continuación le proporcionamos el diagrama de actividades relacionado con el caso de uso principal, "Ingresar dinero":
+
+![Diagrama de secuencias](diagrama_actividades_cajero_automatico.png)
