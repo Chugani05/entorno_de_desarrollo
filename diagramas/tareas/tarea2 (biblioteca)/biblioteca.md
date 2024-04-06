@@ -1,7 +1,7 @@
 # Biblioteca
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](gestion_de_biblioteca.png)
+![Diagrama de comportamiento](../../diagramas/comportamiento/gestion_de_biblioteca.png)
 
 ### Actores
 |  Actor | Usuario |
@@ -144,24 +144,24 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 ## Diagrama de secuencias
 A continuación le proporcionamos el diagrama de secuencias relacionado con "Gestión de biblioteca":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](../../diagramas/secuencia/diagrama_secuencias_gestion_biblioteca.png)
 
 ## Diagrama de actividades
 A continuación le proporcionamos el diagrama de actividades relacionado con "Gestión de biblioteca":
 
-![Diagrama de actividades]()
+![Diagrama de actividades](../../diagramas/actividad/diagrama_actividades_gestión_biblioteca.png)
 
 ## Diagrama de clases
 A continuación le proporcionamos el diagrama de clases relacionado con "Gestión de biblioteca":
 
-![Diagrama de clases]()
+![Diagrama de clases](../../diagramas/clase/diagrama_clase_gestion_biblioteca.png)
 
 ## Diagrama de objetos
 A continuación le proporcionamos el diagrama de objetos relacionado con "Gestión de biblioteca":
 
-![Diagrama de objetos]()
+![Diagrama de objetos](../../diagramas/objeto/diagrama_objeto_biblioteca.png)
 
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Gestión de biblioteca":
 
-![Diagrama de paquetes]()
+![Diagrama de paquetes](../../diagramas/paquete/diagrama_paquete_gestion_biblioteca.png)
