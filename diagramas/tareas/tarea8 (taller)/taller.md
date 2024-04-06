@@ -2,7 +2,7 @@
 
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](gestion_de_taller.png)
+![Diagrama de comportamiento](../../diagramas/comportamiento/gestion_de_taller.png)
 
 ### Actores
 | Actor | Cliente |
@@ -178,4 +178,4 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 ## Diagrama de secuencias
 A continuación le proporcionamos el diagrama de secuencias relacionado con  "Taller":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](../../diagramas/secuencia/diagrama_secuencias_gestion_taller.png)

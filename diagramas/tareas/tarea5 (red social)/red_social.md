@@ -1,7 +1,7 @@
 # Red social
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](red_social.png)
+![Diagrama de comportamiento](../../diagramas/comportamiento/red_social.png)
 
 ### Actores
 | Actor  | Usuario  |
@@ -292,22 +292,22 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 ## Diagrama de secuencias
 A continuación le proporcionamos el diagrama de secuencias relacionado con "Red social":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](../../diagramas/secuencia/diagrama_secuencias_red_social.png)
 
 ## Diagrama de actividades
 A continuación le proporcionamos el diagrama de actividades relacionado con "Red social":
 
-![Diagrama de actividades]()
+![Diagrama de actividades](../../diagramas/actividad/diagrama_actividad_red_social.png)
 
 ## Diagrama de clases
 A continuación le proporcionamos el diagrama de clases relacionado con "Red social":
 
-![Diagrama de clases]()
+![Diagrama de clases](../../diagramas/clase/diagrama_clase_red_social.png)
 
 ## Diagrama de objetos
 A continuación le proporcionamos el diagrama de objetos relacionado con "Red social":
 
-![Diagrama de objetos]()
+![Diagrama de objetos](../../diagramas/objeto/diagrama_objetos_red_social.png)
 
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Red social":

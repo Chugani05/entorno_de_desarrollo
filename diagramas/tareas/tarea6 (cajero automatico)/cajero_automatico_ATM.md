@@ -2,7 +2,7 @@
 
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](gestion_de_un_cajero.png)
+![Diagrama de comportamiento](../../diagramas/comportamiento/gestion_de_un_cajero.png)
 
 ### Actores
 |  Actor | Administrador |
@@ -299,17 +299,17 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 ## Diagrama de secuencias
 A continuación le proporcionamos el diagrama de secuencias relacionado con "Cajero automático":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](../../diagramas/secuencia/diagrama_secuencias_cajero_automatico.png)
 
 ## Diagrama de actividades
 A continuación le proporcionamos el diagrama de actividades relacionado con "Cajero automático":
 
-![Diagrama de actividades]()
+![Diagrama de actividades](../../diagramas/actividad/diagrama_actividades_cajero_automatico.png)
 
 ## Diagrama de clases
 A continuación le proporcionamos el diagrama de clases relacionado con "Cajero automático":
 
-![Diagrama de clases]()
+![Diagrama de clases](../../diagramas/clase/diagrama_clase_cajero_automatico.png)
 
 ## Diagrama de objetos
 A continuación le proporcionamos el diagrama de objetos relacionado con "Cajero automático":

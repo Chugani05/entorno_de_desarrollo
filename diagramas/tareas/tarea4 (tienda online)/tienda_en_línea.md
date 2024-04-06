@@ -1,7 +1,7 @@
 # Tienda en línea
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento]()
+![Diagrama de comportamiento](../../diagramas/comportamiento/tienda_en_linea.png)
 
 ### Actores
 | Actor | Cliente  |
@@ -215,17 +215,17 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 ## Diagrama de actividades
 A continuación le proporcionamos el diagrama de actividades relacionado con "Tienda en línea":
 
-![Diagrama de actividades]()
+![Diagrama de actividades](../../diagramas/actividad/diagrama_actividades_tienda_en_linea.png)
 
 ## Diagrama de clases
 A continuación le proporcionamos el diagrama de clases relacionado con "Tienda en línea":
 
-![Diagrama de clases]()
+![Diagrama de clases](../../diagramas/clase/diagrama_clase_tienda_en_linea.png)
 
 ## Diagrama de objetos
 A continuación le proporcionamos el diagrama de objetos relacionado con "Tienda en línea":
 
-![Diagrama de objetos]()
+![Diagrama de objetos](../../diagramas/objeto/diagrama_objeto_tienda_en_linea.png)
 
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Tienda en línea":

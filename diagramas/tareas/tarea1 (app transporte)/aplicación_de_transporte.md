@@ -1,7 +1,7 @@
 # Aplicación de transporte
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](https://github.com/Chugani05/entorno_de_desarrollo/blob/main/diagramas/comportamiento/imagen-app-transport.png)
+![Diagrama de comportamiento](../../diagramas/comportamiento/imagen-app-transport.png)
 
 ### Actores
 | Actor | Administrador |

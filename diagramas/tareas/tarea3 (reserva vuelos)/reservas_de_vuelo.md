@@ -1,7 +1,7 @@
 # Reserva de vuelos
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](reserva_de_vuelos.png)
+![Diagrama de comportamiento](../../diagramas/comportamiento/reserva_de_vuelos.png)
 
 ### Actores
 |  Actor | Pasajero |
@@ -140,22 +140,22 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 ## Diagrama de secuencias
 A continuación le proporcionamos el diagrama de secuencias relacionado con "Reservar de vuelo":
 
-![Diagrama de secuencias]()
+![Diagrama de secuencias](../../diagramas/secuencia/diagrama_secuencias_reserva_vuelos.png)
 
 ## Diagrama de actividades
 A continuación le proporcionamos el diagrama de actividades relacionado con "Reservar de vuelo":
 
-![Diagrama de actividades]()
+![Diagrama de actividades](../../diagramas/actividad/diagrama_actividades_reserva_vuelos.png)
 
 ## Diagrama de clases
 A continuación le proporcionamos el diagrama de clases relacionado con "Reservar de vuelo":
 
-![Diagrama de clases]()
+![Diagrama de clases](../../diagramas/clase/diagrama_clase_reserva_vuelos.png)
 
 ## Diagrama de objetos
 A continuación le proporcionamos el diagrama de objetos relacionado con "Reservar de vuelo":
 
-![Diagrama de objetos]()
+![Diagrama de objetos](../../diagramas/objeto/diagrama_objero_reserva_vuelos.png)
 
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Reservar de vuelo":
