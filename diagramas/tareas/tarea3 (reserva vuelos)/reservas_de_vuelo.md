@@ -3,7 +3,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 
 ![Diagrama de comportamiento](reserva_de_vuelos.png)
 
-## Actores
+### Actores
 |  Actor | Pasajero |
 |---|---|
 | Descripción  | Persona que utiliza el sistema de reservas de vuelos para buscar, reservar y gestionar vuelos. |
@@ -77,7 +77,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 19/01/2024 |
 
-## Redacciónes de Casos de Uso
+### Redacciónes de Casos de Uso
 | **CU-001**  | **Buscar Vuelo**  | |
 |---|---|---|
 | **Versión** | 1.0 (29/01/2024)      | |
@@ -138,6 +138,26 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Comentarios** | Se pueden aplicar políticas de cancelación y cargos. | |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Reservar vuelo":
+A continuación le proporcionamos el diagrama de secuencias relacionado con "Reservar de vuelo":
 
-![Diagrama de secuencias](diagrama_secuencias_reserva_vuelos.png)
+![Diagrama de secuencias]()
+
+## Diagrama de actividades
+A continuación le proporcionamos el diagrama de actividades relacionado con "Reservar de vuelo":
+
+![Diagrama de actividades]()
+
+## Diagrama de clases
+A continuación le proporcionamos el diagrama de clases relacionado con "Reservar de vuelo":
+
+![Diagrama de clases]()
+
+## Diagrama de objetos
+A continuación le proporcionamos el diagrama de objetos relacionado con "Reservar de vuelo":
+
+![Diagrama de objetos]()
+
+## Diagrama de paquetes MVC
+A continuación le proporcionamos el diagrama de paquetes relacionado con "Reservar de vuelo":
+
+![Diagrama de paquetes]()

@@ -3,7 +3,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 
 ![Diagrama de comportamiento](tienda_en_linea.png)
 
-## Actores
+### Actores
 | Actor | Cliente  |
 |---|---|
 | Descripción  | Persona que utiliza el sistema de gestión de la tienda en línea para explorar productos y realizar compras. |
@@ -24,7 +24,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 20/01/2024 |
 
-## Caso de Uso
+### Caso de Uso
 | Caso de Uso CU | Ver Catálogo  |
 |---|---|
 | Fuentes  | Sistema de gestión de tienda en línea |
@@ -103,7 +103,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 20/01/2024 |
 
-## Redacciónes de Casos de Uso
+### Redacciónes de Casos de Uso
 | **CU-001**  | **Publicar Mensaje**  | |
 |---|---|---|
 | **Versión** | 1.0 (29/01/2024)  | |
@@ -211,3 +211,23 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El administrador puede acceder y revisar la información de los clientes registrados en el sistema. | |
 | **Excepciones** | N/A  |
 | **Comentarios** | Puede incluir información sobre preferencias de productos o historial de compras. | |
+
+## Diagrama de actividades
+A continuación le proporcionamos el diagrama de actividades relacionado con "Tienda en línea":
+
+![Diagrama de actividades]()
+
+## Diagrama de clases
+A continuación le proporcionamos el diagrama de clases relacionado con "Tienda en línea":
+
+![Diagrama de clases]()
+
+## Diagrama de objetos
+A continuación le proporcionamos el diagrama de objetos relacionado con "Tienda en línea":
+
+![Diagrama de objetos]()
+
+## Diagrama de paquetes MVC
+A continuación le proporcionamos el diagrama de paquetes relacionado con "Tienda en línea":
+
+![Diagrama de paquetes]()

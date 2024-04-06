@@ -4,7 +4,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 
 ![Diagrama de comportamiento](gestion_de_un_cajero.png)
 
-## Actores
+### Actores
 |  Actor | Administrador |
 |---|---|
 | Descripción  | Persona encargada de administrar el sistema de cajero. |
@@ -25,7 +25,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwani |
 | Fecha | 30/01/2024 |
 
-## Casos de Uso
+### Casos de Uso
 |  Caso de Uso	CU | Hacer login  |
 |---|---|
 | Fuentes  | Especificación del sistema de cajero.  |
@@ -143,7 +143,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwani |
 | Fecha | 30/01/2024 |
 
-## Redacciónes de Casos de Uso
+### Redacciónes de Casos de Uso
 | **CU-001**  | **Hacer login**  | |
 |---|---|---|
 | **Versión** | 1.0 (30/01/2024)      | |
@@ -297,11 +297,21 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Acceder al sistema  | Generar informe  | Permite acceder al sistema para generar informes sobre transacciones u otros datos relevantes. |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Ingresar dinero":
+A continuación le proporcionamos el diagrama de secuencias relacionado con "Cajero automático":
 
-![Diagrama de secuencias](diagrama_secuencias_cajero_automatico.png)
+![Diagrama de secuencias]()
 
 ## Diagrama de actividades
-A continuación le proporcionamos el diagrama de actividades relacionado con el caso de uso principal, "Ingresar dinero":
+A continuación le proporcionamos el diagrama de actividades relacionado con "Cajero automático":
 
-![Diagrama de secuencias](diagrama_actividades_cajero_automatico.png)
+![Diagrama de actividades]()
+
+## Diagrama de clases
+A continuación le proporcionamos el diagrama de clases relacionado con "Cajero automático":
+
+![Diagrama de clases]()
+
+## Diagrama de objetos
+A continuación le proporcionamos el diagrama de objetos relacionado con "Cajero automático":
+
+![Diagrama de objetos]()

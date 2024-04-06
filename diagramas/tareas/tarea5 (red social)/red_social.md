@@ -3,7 +3,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 
 ![Diagrama de comportamiento](red_social.png)
 
-## Actores
+### Actores
 | Actor  | Usuario  |
 |---|---|
 | Descripción  | Usuario registrado en la aplicación de red social. Puede interactuar con la plataforma para publicar mensajes, conectar con amigos y realizar otras acciones sociales.  |
@@ -24,7 +24,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 20/01/2024 |
 
-## Casos de Uso
+### Casos de Uso
 | Caso de Uso CU  | Publicar Mensaje  |
 |---|---|
 | Fuentes  | Aplicacion de Red Social  |
@@ -142,7 +142,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni  |
 | Fecha | 20/01/2024  |
 
-## Redacciónes de Casos de Uso
+### Redacciónes de Casos de Uso
 | **CU-001**  | **Publicar Mensaje**  | |
 |---|---|---|
 | **Versión** | 1.0 (27/01/2024)  | |
@@ -281,7 +281,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | |     | *E.1* Toca el boton de ir hacia atras. <br> *E.2* Se cancela el caso de uso. |
 | **Comentarios** | Bloquear a un usuario es una medida extrema y debe ser utilizada con precaución. Es importante que los usuarios comprendan las implicaciones de esta acción. | |
 
-## Tabla de Relaciones de "Include"
+### Tabla de Relaciones de "Include"
 | Caso de Uso Principal  | Caso de Uso Incluido  | Descripción  |
 |---|---|---|
 | Conectar con Amigos  | Enviar Solicitud de Amistad  | Permite al usuario enviar solicitudes de amistad a otros usuarios.  |
@@ -290,6 +290,26 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Moderar Contenido  | Eliminar Publicacion  | Permite al moderador eliminar contenido inapropiado o no permitido.  |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Publicar mensaje":
+A continuación le proporcionamos el diagrama de secuencias relacionado con "Red social":
 
-![Diagrama de secuencias](diagrama_secuencias_red_social.png)
+![Diagrama de secuencias]()
+
+## Diagrama de actividades
+A continuación le proporcionamos el diagrama de actividades relacionado con "Red social":
+
+![Diagrama de actividades]()
+
+## Diagrama de clases
+A continuación le proporcionamos el diagrama de clases relacionado con "Red social":
+
+![Diagrama de clases]()
+
+## Diagrama de objetos
+A continuación le proporcionamos el diagrama de objetos relacionado con "Red social":
+
+![Diagrama de objetos]()
+
+## Diagrama de paquetes MVC
+A continuación le proporcionamos el diagrama de paquetes relacionado con "Red social":
+
+![Diagrama de paquetes]()

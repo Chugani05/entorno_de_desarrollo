@@ -3,7 +3,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 
 ![Diagrama de comportamiento](gestion_de_biblioteca.png)
 
-## Actores
+### Actores
 |  Actor | Usuario |
 |---|---|
 | Descripción  | Persona que utiliza el sistema de biblioteca para buscar, prestar y devolver libros.  |
@@ -24,7 +24,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 18/01/2024 |
 
-## Casos de uso
+### Casos de uso
 |  Caso de Uso	CU | Buscar Libro  |
 |---|---|
 | Fuentes  | Catálogo de la biblioteca  |
@@ -77,7 +77,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 18/01/2024 |
 
-## Redacciónes de Casos de Uso
+### Redacciónes de Casos de Uso
 | **CU-001**  | **Buscar Libro**  | |
 |---|---|---|
 | **Versión** | 1.0 (29/01/2024)      | |
@@ -142,6 +142,26 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Comentarios** | Se puede incluir la capacidad de cargar información en formato de archivo para realizar actualizaciones masivas. El sistema puede generar registros de cambios para mantener un historial del catálogo. | |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Prestamo de libros":
+A continuación le proporcionamos el diagrama de secuencias relacionado con "Gestión de biblioteca":
 
-![Diagrama de secuencias](diagrama_secuencias_gestion_biblioteca.png)
+![Diagrama de secuencias]()
+
+## Diagrama de actividades
+A continuación le proporcionamos el diagrama de actividades relacionado con "Gestión de biblioteca":
+
+![Diagrama de actividades]()
+
+## Diagrama de clases
+A continuación le proporcionamos el diagrama de clases relacionado con "Gestión de biblioteca":
+
+![Diagrama de clases]()
+
+## Diagrama de objetos
+A continuación le proporcionamos el diagrama de objetos relacionado con "Gestión de biblioteca":
+
+![Diagrama de objetos]()
+
+## Diagrama de paquetes MVC
+A continuación le proporcionamos el diagrama de paquetes relacionado con "Gestión de biblioteca":
+
+![Diagrama de paquetes]()

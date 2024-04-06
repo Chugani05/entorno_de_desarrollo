@@ -4,7 +4,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 
 ![Diagrama de comportamiento](gestion_de_taller.png)
 
-## Actores
+### Actores
 | Actor | Cliente |
 |---|---|
 | Descripción | Persona que solicita servicios de reparación para un vehículo en el taller. |
@@ -25,7 +25,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 11/02/2024 |
 
-## Casos de Uso
+### Casos de Uso
 | Caso de Uso | Registrar Pedido      |
 |---|---|
 | Fuentes     | Especificación del sistema de taller. |
@@ -90,7 +90,7 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | Autor | Rashi Chugani Narwanni |
 | Fecha | 11/02/2024 |
 
-## Redacciónes de Casos de Uso
+### Redacciónes de Casos de Uso
 | **CU-001**  | **Registrar Pedido**  | |
 |---|---|---|
 | **Versión** | 1.0 (11/02/2024)      | |
@@ -176,6 +176,6 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Comentarios** | La factura puede incluir detalles como el costo de la mano de obra, el costo de las piezas reemplazadas y los impuestos aplicables. | |
 
 ## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con el caso de uso principal, "Registrar pedido":
+A continuación le proporcionamos el diagrama de secuencias relacionado con  "Taller":
 
-![Diagrama de secuencias](diagrama_secuencias_gestion_taller.png)
+![Diagrama de secuencias]()
