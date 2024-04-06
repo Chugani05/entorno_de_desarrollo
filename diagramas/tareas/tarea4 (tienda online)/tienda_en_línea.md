@@ -1,7 +1,7 @@
 # Tienda en línea
 En este ejercicio procederemos a analizar el diagrama de comportamiento de la siguiente imagen: 
 
-![Diagrama de comportamiento](tienda_en_linea.png)
+![Diagrama de comportamiento]()
 
 ### Actores
 | Actor | Cliente  |
