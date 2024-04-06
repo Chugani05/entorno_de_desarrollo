@@ -314,4 +314,4 @@ A continuación le proporcionamos el diagrama de clases relacionado con "Cajero 
 ## Diagrama de objetos
 A continuación le proporcionamos el diagrama de objetos relacionado con "Cajero automático":
 
-![Diagrama de objetos]()
+![Diagrama de objetos](../../diagramas/objeto/diagrama_objetos_cajero_automatico.png)

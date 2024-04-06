@@ -43,28 +43,3 @@ En este ejercicio procederemos a analizar el diagrama de comportamiento de la si
 | **Postcondición** | El nuevo medio de transporte se registra en el sistema y está disponible para su uso. | |
 | **Excepciones** | N/A | |
 | **Comentarios** | Este caso de uso es fundamental para mantener actualizado el catálogo de medios de transporte disponibles en el sistema. | |
-
-## Diagrama de secuencias
-A continuación le proporcionamos el diagrama de secuencias relacionado con "Aplicación de transporte":
-
-![Diagrama de secuencias]()
-
-## Diagrama de actividades
-A continuación le proporcionamos el diagrama de actividades relacionado con "Aplicación de transporte":
-
-![Diagrama de actividades]()
-
-## Diagrama de clases
-A continuación le proporcionamos el diagrama de clases relacionado con "Aplicación de transporte":
-
-![Diagrama de clases]()
-
-## Diagrama de objetos
-A continuación le proporcionamos el diagrama de objetos relacionado con "Aplicación de transporte":
-
-![Diagrama de objetos]()
-
-## Diagrama de paquetes MVC
-A continuación le proporcionamos el diagrama de paquetes relacionado con "Aplicación de transporte":
-
-![Diagrama de paquetes]()

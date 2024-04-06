@@ -15,8 +15,6 @@ A continuación le proporcionamos el diagrama de clases relacionado con "Sistema
 
 ![Diagrama de clases](../../diagramas/clase/diagrama_clase_sistema_hospital.png)
 
-<!-- ![Diagrama de clases](../../diagramas/clase/diagrama_clase_hospital.png) -->
-
 ## Diagrama de objetos
 A continuación le proporcionamos el diagrama de objetos relacionado con "Sistema hospitalario":
 
