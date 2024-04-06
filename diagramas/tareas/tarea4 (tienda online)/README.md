@@ -230,4 +230,4 @@ A continuación le proporcionamos el diagrama de objetos relacionado con "Tienda
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Tienda en línea":
 
-![Diagrama de paquetes]()
+![Diagrama de paquetes](../../diagramas/paquete/diagrama_paquete_tienda_en_linea.png)

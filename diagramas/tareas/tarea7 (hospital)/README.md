@@ -23,4 +23,4 @@ A continuación le proporcionamos el diagrama de objetos relacionado con "Sistem
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Sistema hospitalario":
 
-![Diagrama de paquetes]()
+![Diagrama de paquetes](../../diagramas/paquete/diagrama_paquete_sistema_hospitalario.png)

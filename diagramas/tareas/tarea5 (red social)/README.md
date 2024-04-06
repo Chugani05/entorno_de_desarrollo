@@ -312,4 +312,4 @@ A continuación le proporcionamos el diagrama de objetos relacionado con "Red so
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Red social":
 
-![Diagrama de paquetes]()
+![Diagrama de paquetes](../../diagramas/paquete/diagrama_paquete_red_social.png)

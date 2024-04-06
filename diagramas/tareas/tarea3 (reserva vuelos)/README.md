@@ -160,4 +160,4 @@ A continuación le proporcionamos el diagrama de objetos relacionado con "Reserv
 ## Diagrama de paquetes MVC
 A continuación le proporcionamos el diagrama de paquetes relacionado con "Reservar de vuelo":
 
-![Diagrama de paquetes]()
+![Diagrama de paquetes](../../diagramas/paquete/diagrama_paquete_reserva_vuelo.png)
