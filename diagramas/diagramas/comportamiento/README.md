@@ -45,8 +45,3 @@
 | Caso de Uso Principal  | Caso de Uso Incluido  | Descripción  |
 |-------------------------|------------------------|--------------|
 | ...                     | ...                    | ...          |
-
-# Diagrama de secuencia
-# Diagrama de actividades
-# Diagrama de clase
-
